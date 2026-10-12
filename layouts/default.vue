@@ -11,6 +11,5 @@
       <slot />
     </main>
     <SiteFooter />
-    <SearchOverlay />
   </div>
 </template>

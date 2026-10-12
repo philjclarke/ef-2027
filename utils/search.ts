@@ -404,10 +404,12 @@ export function queryTopics(parsed: ParsedQuery, results: Scored[], max = 3): st
     .filter((t) =>
       parsed.terms.some(
         (term) =>
-          stemmedTokens(t.name).some((w) => w.startsWith(term) || (term.length > 4 && term.startsWith(w))) ||
+          stemmedTokens(t.name).some((w) => w.length > 3 && w.startsWith(term)) ||
           t.match.some((kw) => {
+            // A trailing space in the config means "whole word only" ("rock " ≠ "rocket").
+            const whole = kw.endsWith(' ')
             const k = kw.trim()
-            return k.startsWith(term) || (term.length >= k.length && term.startsWith(k))
+            return k.startsWith(term) || (whole ? term === k : term.length >= k.length && term.startsWith(k))
           }),
       ),
     )

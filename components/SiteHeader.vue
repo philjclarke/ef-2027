@@ -2,7 +2,7 @@
 // Logo, main nav, search button and My resources (or the avatar menu when previewing as signed in).
 // Nav collapses to a menu button below 1024px only.
 const { signedIn, setSignedIn, saved } = usePreviewState()
-const { show: showSearch } = useSearchOverlay()
+const { open: searchOpen } = useSearchOverlay()
 const route = useRoute()
 
 const nav = [
@@ -43,7 +43,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <header class="relative z-[2] bg-white">
+  <header class="relative bg-white" :class="searchOpen ? 'z-50' : 'z-[2]'">
     <div class="container-x flex items-center gap-x-6 gap-y-2 py-3 lg:flex-wrap lg:py-3.5 xl:gap-x-10">
       <NuxtLink to="/" aria-label="Energising Futures home" class="block flex-none leading-none">
         <img src="/brand/ef-logo.svg" alt="" width="95" height="72" class="h-14 w-auto lg:h-[72px]" />
@@ -58,11 +58,14 @@ onBeforeUnmount(() => {
       <div class="ml-auto flex items-center gap-2.5">
         <button
           type="button"
-          aria-label="Search"
-          class="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border-0 bg-lilac-100 text-navy hover:bg-line"
-          @click="showSearch"
+          :aria-label="searchOpen ? 'Close search' : 'Search'"
+          :aria-expanded="searchOpen"
+          aria-controls="header-search"
+          class="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border-0 transition-colors"
+          :class="searchOpen ? 'bg-navy text-white' : 'bg-lilac-100 text-navy hover:bg-line'"
+          @click="searchOpen = !searchOpen"
         >
-          <AppIcon name="search" :size="20" />
+          <AppIcon :name="searchOpen ? 'close' : 'search'" :size="20" :stroke="searchOpen ? 2.4 : 2.2" />
         </button>
 
         <div v-if="signedIn" ref="accountRoot" class="relative">
@@ -118,5 +121,7 @@ onBeforeUnmount(() => {
         </li>
       </ul>
     </nav>
+
+    <HeaderSearch />
   </header>
 </template>

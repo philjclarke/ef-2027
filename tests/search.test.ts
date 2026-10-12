@@ -110,6 +110,12 @@ describe('extras', () => {
     const r = search('electricity')
     expect(queryTopics(r.parsed, r.results)[0]).toBe('Electricity')
   })
+  it('rockets is tagged Space, not Rocks and fossils', () => {
+    const r = search('rockets')
+    const topics = queryTopics(r.parsed, r.results)
+    expect(topics).toContain('Space')
+    expect(topics).not.toContain('Rocks and fossils')
+  })
   it('type-ahead completes "electri"', () => {
     const t = typeahead('electri')
     expect(t.suggestions[0].text).toBe('electricity')

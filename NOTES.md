@@ -20,6 +20,7 @@
 - **Collection blurbs.** Four collections have no description in the scrape. For those we used the short copy from the designs (`data/descriptions.json`). Other collections with no description get a generated line, e.g. "36 resources on electricity, for ages 7–11."
 - **Search config edits.**
   - The "Rocks and fossils" topic keyword `rock` also matched "Rocket science". Changed it to `rocks` / `rock `.
+  - Topic keywords ending in a space now match whole words only, so a "rockets" search no longer gets a #Rocks and fossils tag.
   - Removed `forces` from the `magnet` synonyms, because it pulled in every "Asteroid Action **Force**" item.
   - Added a `ranking` block holding the tuning numbers.
 - **Strict pass isn't Fuse.** Fuse's scoring at threshold 0.15 still lets a one-letter typo through, so "electrcity" would never reach the "did you mean" state. Strict matching is word-based instead. Fuse handles typo correction and the final fuzzy fallback, still with the brief's weights (title 3, topics 2, description 1) and threshold 0.35.
@@ -38,6 +39,7 @@
 **Search behaviour**
 - Type-ahead: the first suggestion is highlighted, so Enter searches for it. "See all N results" uses that suggestion too, which is how design 02 behaves ("electri" → "electricity").
 - Type-ahead "Top matches" and "Meet the people" open the live page in a new tab.
+- The header search icon opens a panel that drops down under the header, with the page dimmed behind it, rather than a full-screen overlay (changed after review: the overlay lost the page context). The first Esc closes the suggestions and the second closes the panel; focus then returns to the search button.
 - "Suggest a resource" opens a small dialog that doesn't send anything. It says so in the dialog.
 
 **Signed-in preview**
@@ -52,7 +54,7 @@
 
 ## Not done yet / known gaps
 - **Performance.** The homepage's largest-contentful-paint is about 6.7s on Lighthouse's throttled mobile profile. The catalogue JSON is bundled into the JavaScript (~190KB), and images aren't responsive (no srcset or WebP). `@nuxt/image` would help.
-- **Focus trapping.** The header search overlay and the mobile filter sheet move focus in and out and close on Esc, but don't fully trap Tab inside. The suggest dialog uses native `<dialog>`, which does.
+- **Focus trapping.** The mobile filter sheet moves focus in and out and closes on Esc, but doesn't fully trap Tab inside. The suggest dialog uses native `<dialog>`, which does.
 - **Tablet nav.** Between 1024px and about 1200px the main nav wraps onto two lines, as the design's flex-wrap allows. If that looks wrong, the options are tighter spacing or a shorter label for "Ultimate STEM Challenge".
 - **Signed-in flash.** The signed-in homepage is applied after load, because state is in `localStorage`. There's a brief flash of the signed-out hero.
 - **Content timing.** "Ready for this term" still features World Space Week, which ended on 10 October. It's controlled in `homepage.json → thisTerm`.
