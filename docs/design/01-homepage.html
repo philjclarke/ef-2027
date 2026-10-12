@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>Energising Futures — Homepage</title>
+<!-- Design reference only. Authored in the Claude Design canvas format: <x-dc>, <helmet>, <sc-for>/<sc-if> and {{holes}} are template syntax; logic lives in the Component class at the bottom. Rebuild as Vue components; do not ship this file. -->
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&amp;family=Figtree:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF;color:#110E63;font-family:Figtree, "Proxima Nova", system-ui, sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#110E63}a:hover{color:#3A3784}
+h1,h2,h3{font-family:Poppins, system-ui, sans-serif;text-wrap:balance}
+p{text-wrap:pretty}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #FFCF2C;outline-offset:2px}
+.lift{transition:transform .25s ease, box-shadow .25s ease}
+.lift:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(17,14,99,.16)}
+.zoom img.cover{transition:transform .5s ease}
+.zoom:hover img.cover{transform:scale(1.04)}
+</style>
+</helmet>
+<div style="min-width: 0; overflow-x: hidden">
+
+<!-- HEADER -->
+<header style="background: #FFFFFF; position: relative; z-index: 2">
+<div style="max-width: 1320px; margin: 0 auto; padding: 14px 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px 40px">
+<a href="01-homepage.html" aria-label="Energising Futures home" style="display: block; line-height: 0"><img src="../assets/brand/ef-logo.svg" alt="Energising Futures" style="height: 72px; width: auto"></a>
+<nav aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 4px 30px; align-items: center; flex: 1 1 560px; font-weight: 700; font-size: 16px">
+<a href="#" style="text-decoration: none; padding: 10px 0">Primary</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">Secondary</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">Collections</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">Interactives</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">Careers</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">Ultimate STEM Challenge</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">CPD</a>
+</nav>
+<div style="display: flex; align-items: center; gap: 10px">
+<a href="02-search-typeahead.html" aria-label="Search" style="width: 48px; height: 48px; border-radius: 999px; background: #F1F1F8; display: flex; align-items: center; justify-content: center; color: #110E63">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+</a>
+<a href="#" style="display: flex; align-items: center; gap: 8px; height: 48px; padding: 0 20px 0 16px; border-radius: 999px; background: #110E63; color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 15px">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"></path></svg>
+My resources
+</a>
+</div>
+</div>
+</header>
+
+<!-- HERO -->
+<section style="background: #8FB4DC; position: relative">
+<img src="../assets/brand/assorted-icons-1.svg" alt="" aria-hidden="true" style="position: absolute; right: -60px; top: 10px; width: 900px; max-width: none; opacity: 0.22; pointer-events: none">
+<div style="max-width: 1320px; margin: 0 auto; padding: 64px 32px 72px; display: flex; flex-wrap: wrap; align-items: center; gap: 48px; position: relative">
+<div style="flex: 1 1 540px; min-width: 0; display: flex; flex-direction: column; gap: 26px">
+<p style="margin: 0; display: inline-flex; align-self: flex-start; align-items: center; gap: 10px; background: #FFFFFF; border-radius: 999px; padding: 8px 16px 8px 8px; font-weight: 700; font-size: 15px">
+<span style="background: #FFCF2C; border-radius: 999px; padding: 4px 10px; font-size: 13px; font-weight: 800; letter-spacing: 0.04em">FREE</span>
+Curriculum-linked STEM resources for ages 4–16
+</p>
+<h1 style="margin: 0; font-size: 72px; line-height: 1.0; font-weight: 800; letter-spacing: -0.025em">Science lessons that show pupils <span style="background: linear-gradient(transparent 62%, #FFCF2C 62%, #FFCF2C 92%, transparent 92%)">where STEM can take them</span></h1>
+<p style="margin: 0; font-size: 21px; line-height: 1.5; max-width: 580px">Lessons, interactives and posters that link what you teach to real people in real STEM jobs. Developed with the Association for Science Education.</p>
+<form role="search" action="#" style="display: flex; flex-direction: column; gap: 14px; max-width: 640px; margin-top: 4px">
+<label for="hero-search" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Search resources</label>
+<div style="display: flex; align-items: center; gap: 8px; background: #FFFFFF; border-radius: 999px; padding: 8px 8px 8px 26px; box-shadow: 0 14px 34px rgba(17,14,99,0.22)">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#110E63" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+<input id="hero-search" type="search" placeholder="What are you teaching? Try ‘electricity’ or ‘habitats’" style="flex: 1; min-width: 0; border: 0; outline-offset: 6px; font: 500 18px Figtree, sans-serif; color: #110E63; background: transparent; padding: 14px 4px">
+<a href="02-search-typeahead.html" style="background: #110E63; color: #FFFFFF; text-decoration: none; border-radius: 999px; padding: 16px 30px; font-weight: 800; font-size: 17px">Search</a>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 15px">
+<span style="font-weight: 700; margin-right: 4px">Popular:</span>
+<a href="03-search-results.html" style="background: rgba(255,255,255,0.6); border-radius: 999px; padding: 7px 15px; text-decoration: none; font-weight: 700">Electricity</a>
+<a href="#" style="background: rgba(255,255,255,0.6); border-radius: 999px; padding: 7px 15px; text-decoration: none; font-weight: 700">Human body</a>
+<a href="#" style="background: rgba(255,255,255,0.6); border-radius: 999px; padding: 7px 15px; text-decoration: none; font-weight: 700">Materials</a>
+<a href="#" style="background: rgba(255,255,255,0.6); border-radius: 999px; padding: 7px 15px; text-decoration: none; font-weight: 700">Rocket science</a>
+</div>
+</form>
+</div>
+
+<!-- hero collage -->
+<div style="flex: 1 1 440px; min-width: 0; position: relative; height: 560px">
+<div style="position: absolute; left: 6%; top: 0; width: 70%; aspect-ratio: 800 / 492; border-radius: 28px; overflow: hidden; border: 6px solid #FFFFFF; box-shadow: 0 24px 50px rgba(17,14,99,0.28); transform: rotate(-3deg)">
+<img src="../assets/thumbnails/ready-steady-science.jpg" alt="A pupil in safety goggles laughing during a science experiment" style="width: 100%; height: 100%; object-fit: cover; display: block">
+</div>
+<div style="position: absolute; right: 0; top: 200px; width: 56%; aspect-ratio: 800 / 492; border-radius: 22px; overflow: hidden; border: 6px solid #FFFFFF; box-shadow: 0 24px 50px rgba(17,14,99,0.28); transform: rotate(4deg)">
+<img src="../assets/thumbnails/rocket-science-primary.jpg" alt="Rocket science resource pack" style="width: 100%; height: 100%; object-fit: cover; display: block">
+</div>
+<div style="position: absolute; left: 0; bottom: 18px; display: flex; align-items: center; gap: 14px; background: #110E63; color: #FFFFFF; border-radius: 999px; padding: 8px 24px 8px 8px; box-shadow: 0 18px 40px rgba(17,14,99,0.35); transform: rotate(-2deg)">
+<img src="../assets/people/imisi.png" alt="" style="width: 72px; height: 72px; border-radius: 999px; background: #FFCF2C; display: block">
+<span style="display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 13px; font-weight: 700; color: #FFCF2C; letter-spacing: 0.04em; text-transform: uppercase">Meet Imisi</span>
+<span style="font-family: Poppins, sans-serif; font-size: 18px; font-weight: 700">Data analyst</span>
+</span>
+</div>
+<div style="position: absolute; right: 4%; top: 44px; background: #FFCF2C; border-radius: 999px; padding: 10px 18px; font-weight: 800; font-size: 15px; box-shadow: 0 10px 24px rgba(17,14,99,0.2); transform: rotate(6deg)">Ages 4–16</div>
+</div>
+</div>
+</section>
+
+<!-- PARTNERS -->
+<section style="padding: 24px 0 8px">
+<div style="max-width: 1320px; margin: 0 auto; padding: 0 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 12px 36px; font-size: 16px; font-weight: 700">
+<span style="color: #4A4785; font-weight: 600">Produced in partnership with</span>
+<span>Association for Science Education</span>
+<span aria-hidden="true" style="width: 6px; height: 6px; border-radius: 999px; background: #C9C8E6"></span>
+<span>Tech She Can</span>
+<span aria-hidden="true" style="width: 6px; height: 6px; border-radius: 999px; background: #C9C8E6"></span>
+<span>Curated by We Are Futures</span>
+</div>
+</section>
+
+<!-- AUDIENCE -->
+<section style="padding: 72px 0 40px">
+<div style="max-width: 1320px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; gap: 36px">
+<div style="display: flex; flex-direction: column; gap: 10px; max-width: 760px">
+<h2 style="margin: 0; font-size: 48px; line-height: 1.08; font-weight: 800; letter-spacing: -0.015em">Who are you teaching?</h2>
+<p style="margin: 0; font-size: 19px; line-height: 1.5; color: #4A4785">Start from your class. Everything is tagged by age, so you only see what fits.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(500px, 100%), 1fr)); gap: 28px">
+
+<article class="lift zoom" style="background: #D7EBEB; border-radius: 32px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 280px; overflow: hidden; position: relative">
+<img class="cover" src="../assets/thumbnails/living-things-and-their-habitats.jpg" alt="Ladybirds climbing dandelion stems" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; left: 24px; top: 24px; background: #FFFFFF; border-radius: 999px; padding: 8px 16px; font-size: 14px; font-weight: 800; letter-spacing: 0.04em">AGES 4–11</span>
+</div>
+<div style="padding: 32px 36px 36px; display: flex; flex-direction: column; gap: 18px">
+<h3 style="margin: 0; font-size: 40px; line-height: 1.05; font-weight: 800">Primary</h3>
+<p style="margin: 0; font-size: 18px; line-height: 1.5; max-width: 460px">Hands-on, curriculum-linked science that brings the subject to life with real-world challenges.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center">
+<a href="#" style="background: #C3B3EE; border-radius: 999px; padding: 11px 20px; text-decoration: none; font-weight: 800">4–7</a>
+<a href="#" style="background: #5FBE98; border-radius: 999px; padding: 11px 20px; text-decoration: none; font-weight: 800">7–11</a>
+<a href="#" style="margin-left: auto; display: inline-flex; align-items: center; gap: 8px; background: #110E63; color: #FFFFFF; text-decoration: none; border-radius: 999px; padding: 13px 22px; font-weight: 800">All primary
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+</div>
+</article>
+
+<article class="lift zoom" style="background: #D6E6F5; border-radius: 32px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 280px; overflow: hidden; position: relative">
+<img class="cover" src="../assets/thumbnails/electrolysis-and-generating-hydrogen.jpg" alt="A hydrogen bus beside electrolysis tanks" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; left: 24px; top: 24px; background: #FFFFFF; border-radius: 999px; padding: 8px 16px; font-size: 14px; font-weight: 800; letter-spacing: 0.04em">AGES 11–16</span>
+</div>
+<div style="padding: 32px 36px 36px; display: flex; flex-direction: column; gap: 18px">
+<h3 style="margin: 0; font-size: 40px; line-height: 1.05; font-weight: 800">Secondary</h3>
+<p style="margin: 0; font-size: 18px; line-height: 1.5; max-width: 460px">KS3 and GCSE materials, from knowledge organisers to practicals, with clear links to careers.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center">
+<a href="#" style="background: #FFCF2C; border-radius: 999px; padding: 11px 20px; text-decoration: none; font-weight: 800">11–14</a>
+<a href="#" style="background: #80B3DD; border-radius: 999px; padding: 11px 20px; text-decoration: none; font-weight: 800">14–16</a>
+<a href="#" style="margin-left: auto; display: inline-flex; align-items: center; gap: 8px; background: #110E63; color: #FFFFFF; text-decoration: none; border-radius: 999px; padding: 13px 22px; font-weight: 800">All secondary
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<!-- THIS TERM -->
+<section style="padding: 56px 0 72px">
+<div style="max-width: 1320px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 14px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: #4A4785">Autumn term</span>
+<h2 style="margin: 0; font-size: 48px; line-height: 1.08; font-weight: 800; letter-spacing: -0.015em">Ready for this term</h2>
+</div>
+<a href="#" style="font-weight: 800; font-size: 17px">Autumn/winter calendar of events</a>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 28px">
+
+<article class="lift" style="flex: 2 1 560px; min-width: 0; display: flex; flex-wrap: wrap; background: #110E63; color: #FFFFFF; border-radius: 32px; overflow: hidden">
+<div style="flex: 1 1 300px; min-height: 340px; background: #FFCF2C; display: flex; align-items: center; justify-content: center; padding: 20px">
+<img src="../assets/thumbnails/rocket-science-secondary.jpg" alt="Rocket science resource pack for secondary" style="width: 100%; height: auto; display: block; border-radius: 12px">
+</div>
+<div style="flex: 1 1 300px; padding: 40px; display: flex; flex-direction: column; justify-content: center; gap: 16px">
+<span style="align-self: flex-start; background: #FFCF2C; color: #110E63; border-radius: 999px; padding: 6px 14px; font-size: 13px; font-weight: 800; letter-spacing: 0.04em">COLLECTION · WORLD SPACE WEEK</span>
+<h3 style="margin: 0; font-size: 36px; line-height: 1.1; font-weight: 800"><a href="#" style="color: #FFFFFF; text-decoration: none">Bring the Rocket Revolution to your classroom</a></h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.55; color: #D9D8F0">Rocket science for primary and secondary, plus the careers behind it.</p>
+<a href="#" style="align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; background: #FFFFFF; color: #110E63; text-decoration: none; border-radius: 999px; padding: 13px 22px; font-weight: 800; margin-top: 6px">Explore the collection
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+</article>
+
+<article class="lift" style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 14px; border-radius: 24px; padding: 14px 14px 22px; background: #FFFFFF; border: 1.5px solid #E4E3F2; position: relative">
+<div style="border-radius: 16px; overflow: hidden; position: relative; line-height: 0">
+<img src="../assets/thumbnails/ready-steady-science-halloween-activities.jpg" alt="Halloween activity sheets" style="width: 100%; height: auto; display: block">
+<span style="position: absolute; left: 10px; top: 10px; background: #FFFFFF; border-radius: 999px; padding: 5px 11px; font-size: 12px; font-weight: 800; line-height: 1.2">PDF</span>
+</div>
+<div style="padding: 0 8px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Resource</span><span style="background: #C3B3EE; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">4–7</span><span style="background: #5FBE98; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">7–11</span></div>
+<h3 style="margin: 0; font-size: 20px; line-height: 1.25; font-weight: 700"><a href="#" style="text-decoration: none">Ready. Steady. Science! Halloween activities</a></h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: #4A4785">From dancing ghosts to flying bats: hands-on science for spooky season.</p>
+</div>
+</article>
+
+<article class="lift" style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 14px; border-radius: 24px; padding: 14px 14px 22px; background: #FFFFFF; border: 1.5px solid #E4E3F2; position: relative">
+<div style="border-radius: 16px; overflow: hidden; position: relative; line-height: 0">
+<img src="../assets/thumbnails/the-secret-science-of-bonfire-night-primary.jpg" alt="The secret science of Bonfire Night poster" style="width: 100%; height: auto; display: block">
+<span style="position: absolute; left: 10px; top: 10px; background: #FFFFFF; border-radius: 999px; padding: 5px 11px; font-size: 12px; font-weight: 800; line-height: 1.2">POSTER · PDF</span>
+</div>
+<div style="padding: 0 8px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Resource</span><span style="background: #5FBE98; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">7–11</span></div>
+<h3 style="margin: 0; font-size: 20px; line-height: 1.25; font-weight: 700"><a href="#" style="text-decoration: none">The secret science of Bonfire Night</a></h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: #4A4785">The science and scientists behind the sparks, flames and explosive reactions.</p>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<!-- NEW THIS MONTH -->
+<section style="padding: 72px 0; background: #F3F3F9">
+<div style="max-width: 1320px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px">
+<h2 style="margin: 0; font-size: 48px; line-height: 1.08; font-weight: 800; letter-spacing: -0.015em">New this month</h2>
+<a href="#" style="font-weight: 800; font-size: 17px">See everything new</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(270px, 100%), 1fr)); gap: 24px">
+
+<article class="lift" style="display: flex; flex-direction: column; gap: 14px; border-radius: 24px; padding: 12px 12px 20px; background: #FFFFFF">
+<div style="border-radius: 16px; overflow: hidden; position: relative; line-height: 0">
+<img src="../assets/thumbnails/brilliant-black-scientists-shaping-our-world-primary.jpg" alt="Brilliant Black scientists poster" style="width: 100%; height: auto; display: block">
+<span style="position: absolute; left: 10px; top: 10px; background: #FFFFFF; border-radius: 999px; padding: 5px 11px; font-size: 12px; font-weight: 800; line-height: 1.2">POSTER · PDF</span>
+<button type="button" aria-label="Save to My resources" style="position: absolute; right: 8px; top: 8px; width: 44px; height: 44px; border: 0; border-radius: 999px; background: #FFFFFF; color: #110E63; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"></path></svg></button>
+</div>
+<div style="padding: 0 8px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Primary</span><span style="background: #5FBE98; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">7–11</span></div>
+<h3 style="margin: 0; font-size: 19px; line-height: 1.3; font-weight: 700"><a href="#" style="text-decoration: none">Brilliant Black scientists shaping our world</a></h3>
+</div>
+</article>
+
+<article class="lift" style="display: flex; flex-direction: column; gap: 14px; border-radius: 24px; padding: 12px 12px 20px; background: #FFFFFF">
+<div style="border-radius: 16px; overflow: hidden; position: relative; line-height: 0">
+<img src="../assets/thumbnails/all-about-me-resources-secondary.jpg" alt="All about me resource pages" style="width: 100%; height: auto; display: block">
+<span style="position: absolute; left: 10px; top: 10px; background: #FFFFFF; border-radius: 999px; padding: 5px 11px; font-size: 12px; font-weight: 800; line-height: 1.2">PDF</span>
+<button type="button" aria-label="Save to My resources" style="position: absolute; right: 8px; top: 8px; width: 44px; height: 44px; border: 0; border-radius: 999px; background: #FFFFFF; color: #110E63; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"></path></svg></button>
+</div>
+<div style="padding: 0 8px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Secondary</span><span style="background: #FFCF2C; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">11–14</span></div>
+<h3 style="margin: 0; font-size: 19px; line-height: 1.3; font-weight: 700"><a href="#" style="text-decoration: none">All about me resources</a></h3>
+</div>
+</article>
+
+<article class="lift" style="display: flex; flex-direction: column; gap: 14px; border-radius: 24px; padding: 12px 12px 20px; background: #FFFFFF">
+<div style="border-radius: 16px; overflow: hidden; position: relative; line-height: 0">
+<img src="../assets/thumbnails/our-roborevolution-challenge-primary.jpg" alt="RoboRevolution challenge pack" style="width: 100%; height: auto; display: block">
+<span style="position: absolute; left: 10px; top: 10px; background: #FFFFFF; border-radius: 999px; padding: 5px 11px; font-size: 12px; font-weight: 800; line-height: 1.2">CHALLENGE</span>
+<button type="button" aria-label="Save to My resources" style="position: absolute; right: 8px; top: 8px; width: 44px; height: 44px; border: 0; border-radius: 999px; background: #FFFFFF; color: #110E63; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"></path></svg></button>
+</div>
+<div style="padding: 0 8px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Primary</span><span style="background: #5FBE98; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">7–11</span></div>
+<h3 style="margin: 0; font-size: 19px; line-height: 1.3; font-weight: 700"><a href="#" style="text-decoration: none">Our RoboRevolution challenge</a></h3>
+</div>
+</article>
+
+<article class="lift" style="display: flex; flex-direction: column; gap: 14px; border-radius: 24px; padding: 12px 12px 20px; background: #FFFFFF">
+<div style="border-radius: 16px; overflow: hidden; position: relative; line-height: 0">
+<img src="../assets/thumbnails/food-nutrition-and-digestion-amelia.jpg" alt="Video still of Amelia, graduate food technologist" style="width: 100%; height: auto; display: block">
+<span style="position: absolute; left: 10px; top: 10px; background: #FFFFFF; border-radius: 999px; padding: 5px 11px; font-size: 12px; font-weight: 800; line-height: 1.2">VIDEO</span>
+<button type="button" aria-label="Save to My resources" style="position: absolute; right: 8px; top: 8px; width: 44px; height: 44px; border: 0; border-radius: 999px; background: #FFFFFF; color: #110E63; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"></path></svg></button>
+</div>
+<div style="padding: 0 8px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Secondary</span><span style="background: #FFCF2C; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">11–14</span></div>
+<h3 style="margin: 0; font-size: 19px; line-height: 1.3; font-weight: 700"><a href="#" style="text-decoration: none">Food, nutrition and digestion: Amelia</a></h3>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<!-- INTERACTIVES -->
+<section style="padding: 8px 0 88px; background: #F3F3F9">
+<div style="max-width: 1320px; margin: 0 auto; padding: 0 32px">
+<div class="zoom" style="display: flex; flex-wrap: wrap; background: #FFCF2C; border-radius: 32px; overflow: hidden">
+<div style="flex: 1.1 1 420px; min-height: 360px; position: relative; overflow: hidden">
+<img class="cover" src="../assets/thumbnails/interactive-science-games.jpg" alt="A pupil playing an interactive science game on a computer" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+</div>
+<div style="flex: 1 1 380px; padding: 48px 48px 52px; display: flex; flex-direction: column; justify-content: center; gap: 18px; position: relative">
+<span style="align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; background: #110E63; color: #FFFFFF; border-radius: 999px; padding: 7px 14px; font-size: 13px; font-weight: 800; letter-spacing: 0.06em">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="4"></rect><path d="M7 10v4M5 12h4M15 11h.01M18 13h.01"></path></svg>INTERACTIVES</span>
+<h2 style="margin: 0; font-size: 44px; line-height: 1.06; font-weight: 800; letter-spacing: -0.015em">Science games pupils actually want to play</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.55; max-width: 460px">Sort, test and explore on the whiteboard or on their own. Interactives launch in the browser, so there’s nothing to download.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 4px">
+<a href="#" style="display: inline-flex; align-items: center; gap: 8px; background: #110E63; color: #FFFFFF; text-decoration: none; border-radius: 999px; padding: 14px 24px; font-weight: 800">Explore interactives
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+<a href="#" style="background: #FFFFFF; border-radius: 999px; padding: 13px 20px; text-decoration: none; font-weight: 800">Primary</a>
+<a href="#" style="background: #FFFFFF; border-radius: 999px; padding: 13px 20px; text-decoration: none; font-weight: 800">Secondary</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- CAREERS -->
+<section style="background: #110E63; color: #FFFFFF; padding: 80px 0 96px; position: relative; overflow: hidden">
+<img src="../assets/brand/assorted-icons-1.svg" alt="" aria-hidden="true" style="position: absolute; left: -120px; bottom: -80px; width: 760px; max-width: none; opacity: 0.08; filter: invert(1); pointer-events: none">
+<div style="max-width: 1320px; margin: 0 auto; padding: 0 32px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center; position: relative">
+<div style="flex: 1 1 400px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<span style="font-size: 14px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: #FFCF2C">Careers connections</span>
+<h2 style="margin: 0; font-size: 54px; line-height: 1.04; font-weight: 800; letter-spacing: -0.02em">Every topic links to a real job</h2>
+<p style="margin: 0; font-size: 19px; line-height: 1.55; color: #D9D8F0; max-width: 500px">Meet the people using science at work. Job cards, videos and presentations put a face to the curriculum, so pupils can picture themselves in a STEM future.</p>
+<a href="#" style="display: inline-flex; align-items: center; gap: 10px; align-self: flex-start; background: #FFCF2C; color: #110E63; text-decoration: none; border-radius: 999px; padding: 15px 26px; font-weight: 800; font-size: 17px">Explore careers
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div style="flex: 1.3 1 560px; min-width: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(210px, 100%), 1fr)); gap: 20px; align-items: end">
+
+<a href="#" class="lift" style="background: #FFCF2C; color: #110E63; border-radius: 28px; padding: 28px 24px 26px; text-decoration: none; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 14px">
+<img src="../assets/people/imisi.png" alt="Imisi" style="width: 150px; height: 150px; border-radius: 999px; border: 5px solid #FFFFFF; display: block; background: #FFFFFF">
+<span style="font-family: Poppins, sans-serif; font-size: 24px; font-weight: 800; line-height: 1.1">Imisi</span>
+<span style="font-weight: 700; font-size: 16px">Data analyst</span>
+<span style="font-size: 13px; font-weight: 800; background: #110E63; color: #FFFFFF; border-radius: 999px; padding: 5px 12px">PRESENTATION</span>
+</a>
+
+<a href="#" class="lift" style="background: #FFFFFF; color: #110E63; border-radius: 28px; overflow: hidden; text-decoration: none; display: flex; flex-direction: column; transform: translateY(-28px)">
+<div style="position: relative; height: 270px; overflow: hidden">
+<img src="../assets/people/amelia.jpg" alt="Video still of Amelia" style="width: 100%; height: 100%; object-fit: cover; object-position: center 20%; display: block">
+</div>
+<div style="padding: 18px 22px 22px; display: flex; flex-direction: column; gap: 4px; text-align: center">
+<span style="font-family: Poppins, sans-serif; font-size: 24px; font-weight: 800; line-height: 1.1">Amelia</span>
+<span style="font-weight: 700; font-size: 16px">Graduate food technologist</span>
+</div>
+</a>
+
+<a href="#" class="lift" style="background: #5FBE98; color: #110E63; border-radius: 28px; padding: 28px 24px 26px; text-decoration: none; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 14px">
+<img src="../assets/people/james.png" alt="James" style="width: 150px; height: 150px; border-radius: 999px; border: 5px solid #FFFFFF; display: block; background: #FFFFFF">
+<span style="font-family: Poppins, sans-serif; font-size: 24px; font-weight: 800; line-height: 1.1">James</span>
+<span style="font-weight: 700; font-size: 16px">Field service engineer</span>
+<span style="font-size: 13px; font-weight: 800; background: #110E63; color: #FFFFFF; border-radius: 999px; padding: 5px 12px">PRESENTATION</span>
+</a>
+</div>
+</div>
+</section>
+
+<!-- COLLECTIONS -->
+<section style="padding: 96px 0 88px">
+<div style="max-width: 1320px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 10px; max-width: 680px">
+<span style="font-size: 14px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: #4A4785">Collections</span>
+<h2 style="margin: 0; font-size: 48px; line-height: 1.08; font-weight: 800; letter-spacing: -0.015em">A whole topic, ready to teach</h2>
+<p style="margin: 0; font-size: 19px; line-height: 1.5; color: #4A4785">Each collection groups the resources for one theme: presentations, activities, quizzes and careers.</p>
+</div>
+<a href="#" style="font-weight: 800; font-size: 17px">Browse all collections</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 40px 28px; padding-top: 16px">
+
+<article class="zoom" style="position: relative">
+<div aria-hidden="true" style="position: absolute; left: 24px; right: 24px; top: -16px; height: 60px; border-radius: 24px; background: #C9DCF0"></div>
+<div aria-hidden="true" style="position: absolute; left: 12px; right: 12px; top: -8px; height: 60px; border-radius: 24px; background: #AFCBE8"></div>
+<div style="position: relative; background: #FFFFFF; border-radius: 24px; overflow: hidden; box-shadow: 0 10px 30px rgba(17,14,99,0.12); display: flex; flex-direction: column">
+<div style="height: 200px; overflow: hidden; position: relative">
+<img class="cover" src="../assets/thumbnails/hydrocarbons-as-fuel.jpg" alt="A plane refuelling from a biofuel tanker" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; right: 12px; bottom: 12px; display: flex; align-items: center; gap: 6px; background: #110E63; color: #FFFFFF; border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 800"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5z"></path><path d="M3 13l9 5 9-5"></path></svg>24 resources</span>
+</div>
+<div style="padding: 22px 22px 24px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Secondary</span><span style="background: #80B3DD; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">14–16</span></div>
+<h3 style="margin: 0; font-size: 22px; line-height: 1.2; font-weight: 800"><a href="#" style="text-decoration: none">Hydrocarbons as fuel</a></h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: #4A4785">Fractional distillation, cracking and making a biodiesel, with the people working in energy.</p>
+</div>
+</div>
+</article>
+
+<article class="zoom" style="position: relative">
+<div aria-hidden="true" style="position: absolute; left: 24px; right: 24px; top: -16px; height: 60px; border-radius: 24px; background: #C9DCF0"></div>
+<div aria-hidden="true" style="position: absolute; left: 12px; right: 12px; top: -8px; height: 60px; border-radius: 24px; background: #AFCBE8"></div>
+<div style="position: relative; background: #FFFFFF; border-radius: 24px; overflow: hidden; box-shadow: 0 10px 30px rgba(17,14,99,0.12); display: flex; flex-direction: column">
+<div style="height: 200px; overflow: hidden; position: relative">
+<img class="cover" src="../assets/thumbnails/electrolysis-and-generating-hydrogen.jpg" alt="Hydrogen bus and electrolysis tanks" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; right: 12px; bottom: 12px; display: flex; align-items: center; gap: 6px; background: #110E63; color: #FFFFFF; border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 800"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5z"></path><path d="M3 13l9 5 9-5"></path></svg>21 resources</span>
+</div>
+<div style="padding: 22px 22px 24px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Secondary</span><span style="background: #80B3DD; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">14–16</span></div>
+<h3 style="margin: 0; font-size: 22px; line-height: 1.2; font-weight: 800"><a href="#" style="text-decoration: none">Electrolysis and generating hydrogen</a></h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: #4A4785">How electrolysis can produce hydrogen, including building a simple electrolysis cell.</p>
+</div>
+</div>
+</article>
+
+<article class="zoom" style="position: relative">
+<div aria-hidden="true" style="position: absolute; left: 24px; right: 24px; top: -16px; height: 60px; border-radius: 24px; background: #CFEDE0"></div>
+<div aria-hidden="true" style="position: absolute; left: 12px; right: 12px; top: -8px; height: 60px; border-radius: 24px; background: #A7DCC5"></div>
+<div style="position: relative; background: #FFFFFF; border-radius: 24px; overflow: hidden; box-shadow: 0 10px 30px rgba(17,14,99,0.12); display: flex; flex-direction: column">
+<div style="height: 200px; overflow: hidden; position: relative">
+<img class="cover" src="../assets/thumbnails/living-things-and-their-habitats.jpg" alt="Ladybirds on dandelions" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; right: 12px; bottom: 12px; display: flex; align-items: center; gap: 6px; background: #110E63; color: #FFFFFF; border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 800"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5z"></path><path d="M3 13l9 5 9-5"></path></svg>20 resources</span>
+</div>
+<div style="padding: 22px 22px 24px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Primary</span><span style="background: #C3B3EE; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">4–7</span><span style="background: #5FBE98; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">7–11</span></div>
+<h3 style="margin: 0; font-size: 22px; line-height: 1.2; font-weight: 800"><a href="#" style="text-decoration: none">Living things and their habitats</a></h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: #4A4785">Minibeasts and their habitats, linked to the real world and real careers.</p>
+</div>
+</div>
+</article>
+
+<article class="zoom" style="position: relative">
+<div aria-hidden="true" style="position: absolute; left: 24px; right: 24px; top: -16px; height: 60px; border-radius: 24px; background: #FFE9A3"></div>
+<div aria-hidden="true" style="position: absolute; left: 12px; right: 12px; top: -8px; height: 60px; border-radius: 24px; background: #FFDB66"></div>
+<div style="position: relative; background: #FFFFFF; border-radius: 24px; overflow: hidden; box-shadow: 0 10px 30px rgba(17,14,99,0.12); display: flex; flex-direction: column">
+<div style="height: 200px; overflow: hidden; position: relative">
+<img class="cover" src="../assets/thumbnails/knowledge-organisers.jpg" alt="Knowledge organiser sheets on a desk" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; right: 12px; bottom: 12px; display: flex; align-items: center; gap: 6px; background: #110E63; color: #FFFFFF; border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 800"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5z"></path><path d="M3 13l9 5 9-5"></path></svg>30 resources</span>
+</div>
+<div style="padding: 22px 22px 24px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Secondary</span><span style="background: #FFCF2C; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">11–14</span><span style="background: #80B3DD; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">14–16</span></div>
+<h3 style="margin: 0; font-size: 22px; line-height: 1.2; font-weight: 800"><a href="#" style="text-decoration: none">Knowledge organisers</a></h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.5; color: #4A4785">The essential facts for each topic, to introduce or revise.</p>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer style="background: #F3F3F9">
+<div style="max-width: 1320px; margin: 0 auto; padding: 40px 32px 40px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 18px; max-width: 400px">
+<img src="../assets/brand/ef-logo.svg" alt="Energising Futures" style="height: 64px; width: auto; align-self: flex-start">
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #4A4785">A free STEM hub, previously the bp Educational Service. Produced with the Association for Science Education.</p>
+</div>
+<nav aria-label="Footer" style="display: grid; grid-template-columns: repeat(2, minmax(150px, auto)); gap: 12px 56px; font-size: 15px; font-weight: 700">
+<a href="#">News</a><a href="#">Cookie policy</a>
+<a href="#">About us</a><a href="#">Legal notice</a>
+<a href="#">FAQs</a><a href="#">Privacy policy</a>
+<a href="#">Contact us</a><a href="#">Accessibility statement</a>
+</nav>
+</div>
+<p style="margin: 0; font-size: 14px; color: #4A4785">© 2026 We Are Futures. All rights reserved.</p>
+</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4400}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

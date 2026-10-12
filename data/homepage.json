@@ -1,0 +1,85 @@
+{
+  "_note": "Item ids refer to data/catalogue.json. Copy is final unless marked [placeholder].",
+  "hero": {
+    "eyebrow": { "badge": "FREE", "text": "Curriculum-linked STEM resources for ages 4–16" },
+    "h1": "Science lessons that show pupils",
+    "h1Highlight": "where STEM can take them",
+    "intro": "Lessons, interactives and posters that link what you teach to real people in real STEM jobs. Developed with the Association for Science Education.",
+    "searchPlaceholder": "What are you teaching? Try ‘electricity’ or ‘habitats’",
+    "popular": ["Electricity", "Human body", "Materials", "Rocket science"],
+    "collage": {
+      "photo": { "src": "/thumbnails/ready-steady-science.jpg", "alt": "A pupil in safety goggles laughing during a science experiment" },
+      "card": { "src": "/thumbnails/rocket-science-primary.jpg", "alt": "Rocket science resource pack" },
+      "badgePerson": "imisi",
+      "sticker": "Ages 4–16"
+    }
+  },
+  "partners": {
+    "label": "Produced in partnership with",
+    "items": ["Association for Science Education", "Tech She Can", "Curated by We Are Futures"]
+  },
+  "audience": {
+    "h2": "Who are you teaching?",
+    "intro": "Start from your class. Everything is tagged by age, so you only see what fits.",
+    "cards": [
+      { "level": "Primary", "ages": ["4-7", "7-11"], "eyebrow": "AGES 4–11", "bg": "teal-50", "image": "/thumbnails/living-things-and-their-habitats.jpg", "alt": "Ladybirds climbing dandelion stems", "text": "Hands-on, curriculum-linked science that brings the subject to life with real-world challenges.", "cta": "All primary" },
+      { "level": "Secondary", "ages": ["11-14", "14-16"], "eyebrow": "AGES 11–16", "bg": "sky-50", "image": "/thumbnails/electrolysis-and-generating-hydrogen.jpg", "alt": "A hydrogen bus beside electrolysis tanks", "text": "KS3 and GCSE materials, from knowledge organisers to practicals, with clear links to careers.", "cta": "All secondary" }
+    ]
+  },
+  "thisTerm": {
+    "eyebrow": "Autumn term",
+    "h2": "Ready for this term",
+    "link": { "text": "Autumn/winter calendar of events", "id": "autumn-events-2026-primary" },
+    "feature": {
+      "id": "world-space-week-resources",
+      "badge": "COLLECTION · WORLD SPACE WEEK",
+      "title": "Bring the Rocket Revolution to your classroom",
+      "text": "Rocket science for primary and secondary, plus the careers behind it.",
+      "image": "/thumbnails/rocket-science-secondary.jpg",
+      "cta": "Explore the collection"
+    },
+    "items": ["rss-halloween-activities", "the-secret-science-of-bonfire-night-primary"]
+  },
+  "newThisMonth": {
+    "h2": "New this month",
+    "items": ["brilliant-black-scientists-shaping-our-world-primary", "all-about-me-resources-secondary", "our-roborevolution-challenge-primary", "food-nutrition-and-digestion-amelia"]
+  },
+  "interactives": {
+    "eyebrow": "INTERACTIVES",
+    "h2": "Science games pupils actually want to play",
+    "text": "Sort, test and explore on the whiteboard or on their own. Interactives launch in the browser, so there’s nothing to download.",
+    "image": "/thumbnails/interactive-science-games.jpg",
+    "alt": "A pupil playing an interactive science game on a computer",
+    "collectionId": "interactive-science-games"
+  },
+  "careers": {
+    "eyebrow": "Careers connections",
+    "h2": "Every topic links to a real job",
+    "text": "Meet the people using science at work. Job cards, videos and presentations put a face to the curriculum, so pupils can picture themselves in a STEM future.",
+    "cta": "Explore careers",
+    "people": ["imisi", "amelia", "james"]
+  },
+  "collections": {
+    "eyebrow": "Collections",
+    "h2": "A whole topic, ready to teach",
+    "intro": "Each collection groups the resources for one theme: presentations, activities, quizzes and careers.",
+    "items": ["hydrocarbons-as-fuel", "electrolysis-and-generating-hydrogen", "living-things-and-their-habitats", "knowledge-organisers"]
+  },
+  "signedInDemo": {
+    "name": "Sam",
+    "ages": ["7-11", "11-14"],
+    "studentResources": 2,
+    "saved": [
+      { "id": "electricity-and-batteries", "savedLabel": "Saved last week" },
+      { "id": "meet-a-data-analyst-presentation", "savedLabel": "Saved last week" },
+      { "id": "energy-transfers-knowledge-organiser", "savedLabel": "Saved 3 weeks ago" },
+      { "id": "rocket-science-primary", "savedLabel": "Saved 2 months ago" }
+    ],
+    "newForYou": ["rss-halloween-activities", "the-secret-science-of-bonfire-night-primary", "brilliant-black-scientists-shaping-our-world-primary", "all-about-me-resources-secondary"]
+  },
+  "footer": {
+    "about": "A free STEM hub, previously the bp Educational Service. Produced with the Association for Science Education.",
+    "links": ["News", "About us", "FAQs", "Contact us", "Cookie policy", "Legal notice", "Privacy policy", "Accessibility statement"],
+    "copyright": "© 2026 We Are Futures. All rights reserved."
+  }
+}

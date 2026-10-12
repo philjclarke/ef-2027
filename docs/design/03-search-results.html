@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>Energising Futures — Search results</title>
+<!-- Design reference only. Authored in the Claude Design canvas format: <x-dc>, <helmet>, <sc-for>/<sc-if> and {{holes}} are template syntax; logic lives in the Component class at the bottom. Rebuild as Vue components; do not ship this file. -->
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&amp;family=Figtree:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF;color:#110E63;font-family:Figtree, "Proxima Nova", system-ui, sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#110E63}a:hover{color:#3A3784}
+h1,h2,h3{font-family:Poppins, system-ui, sans-serif;text-wrap:balance}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #FFCF2C;outline-offset:2px}
+input[type=checkbox]{width:20px;height:20px;accent-color:#110E63;margin:0;flex:none;cursor:pointer}
+input[type=checkbox]:disabled{cursor:not-allowed}
+.lift{transition:transform .25s ease, box-shadow .25s ease}
+.lift:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(17,14,99,.14)}
+</style>
+</helmet>
+<div style="min-width: 0; overflow-x: hidden">
+
+<header style="background: #FFFFFF; position: relative; z-index: 2">
+<div style="max-width: 1320px; margin: 0 auto; padding: 14px 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px 40px">
+<a href="01-homepage.html" aria-label="Energising Futures home" style="display: block; line-height: 0"><img src="../assets/brand/ef-logo.svg" alt="Energising Futures" style="height: 72px; width: auto"></a>
+<nav aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 4px 30px; align-items: center; flex: 1 1 560px; font-weight: 700; font-size: 16px">
+<a href="#" style="text-decoration: none; padding: 10px 0">Primary</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">Secondary</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">Collections</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">Interactives</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">Careers</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">Ultimate STEM Challenge</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">CPD</a>
+</nav>
+<a href="#" style="display: flex; align-items: center; gap: 8px; height: 48px; padding: 0 20px 0 16px; border-radius: 999px; background: #110E63; color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 15px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"></path></svg>My resources</a>
+</div>
+</header>
+
+<!-- SEARCH HEAD -->
+<section style="background: #D6E6F5; position: relative; overflow: hidden">
+<img src="../assets/brand/assorted-icons-1.svg" alt="" aria-hidden="true" style="position: absolute; right: -40px; top: -60px; width: 640px; max-width: none; opacity: 0.18; pointer-events: none">
+<div style="max-width: 1320px; margin: 0 auto; padding: 40px 32px 0; display: flex; flex-direction: column; gap: 24px; position: relative">
+<form role="search" action="#" style="display: flex; align-items: center; gap: 8px; background: #FFFFFF; border-radius: 999px; padding: 8px 8px 8px 26px; max-width: 760px; box-shadow: 0 10px 28px rgba(17,14,99,0.14)">
+<label for="rs-search" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Search resources</label>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#110E63" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+<input id="rs-search" type="search" value="electricity" style="flex: 1; min-width: 0; border: 0; outline: none; font: 700 20px Figtree, sans-serif; color: #110E63; background: transparent; padding: 14px 4px">
+<button type="submit" style="border: 0; background: #110E63; color: #FFFFFF; border-radius: 999px; padding: 16px 30px; font: 800 17px Figtree, sans-serif; cursor: pointer">Search</button>
+</form>
+<div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px">
+<h1 style="margin: 0; font-size: 44px; line-height: 1.1; font-weight: 800; letter-spacing: -0.015em">{{total}} results for “electricity”</h1>
+<p style="margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 15px; font-weight: 700">Topics:
+<a href="#" style="display: inline-flex; gap: 4px; background: #FFFFFF; border-radius: 999px; padding: 6px 12px; text-decoration: none; font-weight: 800"><span aria-hidden="true" style="color: #4A4785">#</span>Electricity</a>
+<a href="#" style="display: inline-flex; gap: 4px; background: #FFFFFF; border-radius: 999px; padding: 6px 12px; text-decoration: none; font-weight: 800"><span aria-hidden="true" style="color: #4A4785">#</span>Energy transfers</a>
+<a href="#" style="display: inline-flex; gap: 4px; background: #FFFFFF; border-radius: 999px; padding: 6px 12px; text-decoration: none; font-weight: 800"><span aria-hidden="true" style="color: #4A4785">#</span>Circuits</a>
+</p>
+</div>
+
+<div role="tablist" aria-label="Result type" style="display: flex; flex-wrap: wrap; gap: 6px">
+<sc-for list="{{tabs}}" as="tab" hint-placeholder-count="3">
+<sc-if value="{{tab.active}}" hint-placeholder-val="{{false}}">
+<button type="button" role="tab" aria-selected="true" onClick="{{tab.pick}}" style="border: 0; background: #FFFFFF; color: #110E63; border-radius: 18px 18px 0 0; padding: 16px 24px; font: 800 17px Figtree, sans-serif; cursor: pointer; display: flex; gap: 10px; align-items: center">{{tab.label}}<span style="background: #110E63; color: #FFFFFF; border-radius: 999px; padding: 2px 10px; font-size: 13px">{{tab.count}}</span></button>
+</sc-if>
+<sc-if value="{{tab.inactive}}" hint-placeholder-val="{{true}}">
+<button type="button" role="tab" aria-selected="false" onClick="{{tab.pick}}" style="border: 0; background: transparent; color: #110E63; border-radius: 18px 18px 0 0; padding: 16px 24px; font: 700 17px Figtree, sans-serif; cursor: pointer; display: flex; gap: 10px; align-items: center">{{tab.label}}<span style="background: rgba(255,255,255,0.7); border-radius: 999px; padding: 2px 10px; font-size: 13px">{{tab.count}}</span></button>
+</sc-if>
+</sc-for>
+</div>
+</div>
+</section>
+
+<!-- BODY -->
+<div style="max-width: 1320px; margin: 0 auto; padding: 40px 32px 96px; display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start">
+
+<aside aria-label="Filters" style="flex: 1 1 250px; max-width: 290px; display: flex; flex-direction: column; gap: 26px; background: #F7F7FB; border-radius: 24px; padding: 26px">
+<div style="display: flex; justify-content: space-between; align-items: center">
+<h2 style="margin: 0; font-size: 20px; font-weight: 800">Filter</h2>
+<sc-if value="{{hasFilters}}" hint-placeholder-val="{{false}}">
+<button type="button" onClick="{{clearAll}}" style="border: 0; background: none; color: #110E63; font: 700 15px Figtree, sans-serif; text-decoration: underline; cursor: pointer; padding: 10px 0">Clear all</button>
+</sc-if>
+</div>
+<p style="margin: -12px 0 0; font-size: 14px; line-height: 1.45; color: #4A4785">Numbers show how many results each choice gives, so you never filter down to nothing.</p>
+
+<fieldset style="border: 0; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px">
+<legend style="font-weight: 800; font-size: 16px; margin-bottom: 12px">Age</legend>
+<sc-for list="{{ageOpts}}" as="o" hint-placeholder-count="4">
+<label style="display: flex; align-items: center; gap: 12px; font-size: 16px; font-weight: 600; opacity: {{o.opacity}}">
+<input type="checkbox" checked="{{o.on}}" disabled="{{o.disabled}}" onChange="{{o.toggle}}">
+<span style="background: {{o.bg}}; border-radius: 999px; padding: 2px 10px; font-size: 14px; font-weight: 800; box-shadow: 0 0 0 2px #FFFFFF">{{o.label}}</span>
+<span style="color: #4A4785; font-size: 14px; flex: 1">{{o.hint}}</span>
+<span style="font-size: 14px; font-weight: 800; color: #4A4785">{{o.count}}</span>
+</label>
+</sc-for>
+</fieldset>
+
+<fieldset style="border: 0; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px">
+<legend style="font-weight: 800; font-size: 16px; margin-bottom: 12px">Resource format</legend>
+<sc-for list="{{fmtOpts}}" as="o" hint-placeholder-count="4">
+<label style="display: flex; align-items: center; gap: 12px; font-size: 16px; font-weight: 600; opacity: {{o.opacity}}">
+<input type="checkbox" checked="{{o.on}}" disabled="{{o.disabled}}" onChange="{{o.toggle}}">
+<span style="flex: 1">{{o.label}}</span>
+<span style="font-size: 14px; font-weight: 800; color: #4A4785">{{o.count}}</span>
+</label>
+</sc-for>
+</fieldset>
+</aside>
+
+<!-- RESULTS -->
+<div style="flex: 999 1 600px; min-width: 0; display: flex; flex-direction: column; gap: 52px">
+
+<sc-if value="{{hasFilters}}" hint-placeholder-val="{{false}}">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: -28px">
+<span style="font-weight: 700; font-size: 15px; margin-right: 4px">Showing:</span>
+<sc-for list="{{applied}}" as="a" hint-placeholder-count="2">
+<button type="button" onClick="{{a.remove}}" aria-label="Remove filter {{a.label}}" style="display: inline-flex; align-items: center; gap: 8px; border: 0; background: #110E63; color: #FFFFFF; border-radius: 999px; padding: 8px 12px 8px 16px; font: 800 14px Figtree, sans-serif; cursor: pointer">{{a.label}}<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+</sc-for>
+</div>
+</sc-if>
+
+<sc-if value="{{showTop}}" hint-placeholder-val="{{true}}">
+<article class="lift" style="position: relative; margin-top: 14px">
+<div aria-hidden="true" style="position: absolute; left: 32px; right: 32px; top: -14px; height: 60px; border-radius: 28px; background: #CFEDE0"></div>
+<div aria-hidden="true" style="position: absolute; left: 16px; right: 16px; top: -7px; height: 60px; border-radius: 28px; background: #A7DCC5"></div>
+<div style="position: relative; display: flex; flex-wrap: wrap; background: #110E63; color: #FFFFFF; border-radius: 28px; overflow: hidden">
+<div style="flex: 1.1 1 320px; min-height: 300px; position: relative">
+<img src="../assets/thumbnails/electricity-and-batteries.jpg" alt="An electric car shown with its battery and wiring" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<span style="position: absolute; left: 18px; top: 18px; background: #FFCF2C; color: #110E63; border-radius: 999px; padding: 6px 14px; font-size: 13px; font-weight: 800; letter-spacing: 0.04em">BEST MATCH</span>
+</div>
+<div style="flex: 1 1 320px; padding: 34px 36px; display: flex; flex-direction: column; gap: 14px; justify-content: center">
+<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 13px; font-weight: 800"><span style="letter-spacing: 0.06em; color: #C9C8E6">COLLECTION · PRIMARY</span><span style="background: #5FBE98; color: #110E63; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">7–11</span></div>
+<h2 style="margin: 0; font-size: 34px; line-height: 1.1; font-weight: 800"><a href="#" style="color: #FFFFFF; text-decoration: none">Electricity and batteries</a></h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.55; color: #D9D8F0">Discover the science of electricity and link learning to the real world of electric vehicles.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<a href="#" style="display: inline-flex; gap: 4px; border: 1.5px solid #5E5BA8; color: #FFFFFF; border-radius: 999px; padding: 5px 12px; text-decoration: none; font-weight: 700; font-size: 14px"><span aria-hidden="true" style="color: #C9C8E6">#</span>Electricity</a>
+<a href="#" style="display: inline-flex; gap: 4px; border: 1.5px solid #5E5BA8; color: #FFFFFF; border-radius: 999px; padding: 5px 12px; text-decoration: none; font-weight: 700; font-size: 14px"><span aria-hidden="true" style="color: #C9C8E6">#</span>Circuits</a>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 14px; align-items: center; margin-top: 4px">
+<a href="#" style="display: inline-flex; align-items: center; gap: 8px; background: #FFFFFF; color: #110E63; text-decoration: none; border-radius: 999px; padding: 13px 22px; font-weight: 800">View collection
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+<span style="display: inline-flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 800"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5z"></path><path d="M3 13l9 5 9-5"></path></svg>36 resources</span>
+</div>
+</div>
+</div>
+</article>
+</sc-if>
+
+<!-- COLLECTIONS -->
+<sc-if value="{{showCollections}}" hint-placeholder-val="{{true}}">
+<section style="display: flex; flex-direction: column; gap: 26px">
+<div style="display: flex; flex-direction: column; gap: 4px">
+<h2 style="margin: 0; font-size: 28px; line-height: 1.2; font-weight: 800">Collections <span style="font-family: Figtree, sans-serif; font-weight: 700; font-size: 18px; color: #4A4785">({{collectionLabel}})</span></h2>
+<p style="margin: 0; font-size: 16px; color: #4A4785">Themed sets of resources, ready to teach.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr)); gap: 36px 22px; padding-top: 12px">
+<sc-for list="{{collections}}" as="c" hint-placeholder-count="4">
+<article class="lift" style="position: relative; border-radius: 22px">
+<div aria-hidden="true" style="position: absolute; left: 20px; right: 20px; top: -12px; height: 50px; border-radius: 20px; background: {{c.back}}"></div>
+<div aria-hidden="true" style="position: absolute; left: 10px; right: 10px; top: -6px; height: 50px; border-radius: 20px; background: {{c.mid}}"></div>
+<div style="position: relative; background: #FFFFFF; border-radius: 22px; overflow: hidden; box-shadow: 0 8px 24px rgba(17,14,99,0.12); display: flex; flex-direction: column; height: 100%">
+<div style="position: relative; line-height: 0">
+<img src="{{c.img}}" alt="" style="width: 100%; aspect-ratio: 800 / 492; object-fit: cover; display: block">
+<span style="position: absolute; right: 10px; bottom: 10px; display: flex; align-items: center; gap: 6px; background: #110E63; color: #FFFFFF; border-radius: 999px; padding: 6px 11px; font-size: 13px; font-weight: 800; line-height: 1.2"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5z"></path><path d="M3 13l9 5 9-5"></path></svg>{{c.count}}</span>
+</div>
+<div style="padding: 16px 18px 20px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">{{c.level}}</span><sc-for list="{{c.ages}}" as="age" hint-placeholder-count="1"><span style="background: {{age.bg}}; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">{{age.label}}</span></sc-for></div>
+<h3 style="margin: 0; font-size: 18px; line-height: 1.3; font-weight: 800"><a href="#" style="text-decoration: none">{{c.title}}</a></h3>
+</div>
+</div>
+</article>
+</sc-for>
+</div>
+</section>
+</sc-if>
+
+<!-- RESOURCES -->
+<sc-if value="{{showResources}}" hint-placeholder-val="{{true}}">
+<section style="display: flex; flex-direction: column; gap: 22px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px">
+<div style="display: flex; flex-direction: column; gap: 4px">
+<h2 style="margin: 0; font-size: 28px; line-height: 1.2; font-weight: 800">Resources <span style="font-family: Figtree, sans-serif; font-weight: 700; font-size: 18px; color: #4A4785">({{resCount}})</span></h2>
+<p style="margin: 0; font-size: 16px; color: #4A4785">Single files to download or open in class.</p>
+</div>
+<div style="display: flex; align-items: center; gap: 10px">
+<label for="sort" style="font-weight: 700; font-size: 15px">Sort</label>
+<select id="sort" style="font: 700 15px Figtree, sans-serif; color: #110E63; border: 1.5px solid #DCDCEA; border-radius: 12px; padding: 10px 14px; background: #FFFFFF; min-height: 44px"><option>Best match</option><option>Newest</option><option>A–Z</option></select>
+</div>
+</div>
+<div role="group" aria-label="Resource kind" style="display: flex; flex-wrap: wrap; gap: 8px">
+<sc-for list="{{chips}}" as="chip" hint-placeholder-count="3">
+<sc-if value="{{chip.active}}" hint-placeholder-val="{{false}}">
+<button type="button" aria-pressed="true" onClick="{{chip.pick}}" style="border: 0; background: #110E63; color: #FFFFFF; border-radius: 999px; padding: 10px 18px; font: 800 15px Figtree, sans-serif; cursor: pointer">{{chip.label}} · {{chip.count}}</button>
+</sc-if>
+<sc-if value="{{chip.inactive}}" hint-placeholder-val="{{true}}">
+<button type="button" aria-pressed="false" onClick="{{chip.pick}}" style="border: 1.5px solid #DCDCEA; background: #FFFFFF; color: #110E63; border-radius: 999px; padding: 9px 17px; font: 700 15px Figtree, sans-serif; cursor: pointer">{{chip.label}} · {{chip.count}}</button>
+</sc-if>
+</sc-for>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr)); gap: 22px">
+<sc-for list="{{resources}}" as="r" hint-placeholder-count="8">
+<article class="lift" style="display: flex; flex-direction: column; gap: 12px; border-radius: 22px; padding: 10px 10px 16px; background: #FFFFFF; border: 1.5px solid #E9E9F1">
+<div style="border-radius: 14px; overflow: hidden; position: relative; line-height: 0">
+<img src="{{r.img}}" alt="" style="width: 100%; aspect-ratio: 800 / 492; object-fit: cover; display: block">
+<span style="position: absolute; left: 8px; top: 8px; background: #FFFFFF; border-radius: 999px; padding: 5px 10px; font-size: 12px; font-weight: 800; line-height: 1.2">{{r.badge}}</span>
+<button type="button" aria-label="Save to My resources" style="position: absolute; right: 6px; top: 6px; width: 44px; height: 44px; border: 0; border-radius: 999px; background: #FFFFFF; color: #110E63; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"></path></svg></button>
+</div>
+<div style="padding: 0 6px; display: flex; flex-direction: column; gap: 8px; flex: 1">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700">
+<span style="color: #4A4785; margin-right: 2px">{{r.level}}</span>
+<sc-for list="{{r.ages}}" as="age" hint-placeholder-count="1"><span style="background: {{age.bg}}; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">{{age.label}}</span></sc-for>
+</div>
+<h3 style="margin: 0; font-size: 17px; line-height: 1.3; font-weight: 800; flex: 1"><a href="#" style="text-decoration: none">{{r.title}}</a></h3>
+<a href="#" style="align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 800; text-decoration: none; border-radius: 999px; padding: 8px 14px; background: #F1F1F8"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg>Download</a>
+</div>
+</article>
+</sc-for>
+</div>
+<sc-if value="{{showMore}}" hint-placeholder-val="{{true}}">
+<button type="button" onClick="{{more}}" style="align-self: center; border: 2px solid #110E63; background: #FFFFFF; color: #110E63; border-radius: 999px; padding: 14px 28px; font: 800 16px Figtree, sans-serif; cursor: pointer">{{moreLabel}}</button>
+</sc-if>
+</section>
+</sc-if>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2500}}'>
+class Component extends DCLogic {
+constructor(props) {
+super(props);
+this.state = { tab: 'all', kind: 'all', ages: {}, fmts: {} };
+}
+renderVals() {
+var self = this;
+var AGE = {
+y: { key: 'y', label: '4–7', bg: '#C3B3EE', hint: 'Reception–Y2' },
+p: { key: 'p', label: '7–11', bg: '#5FBE98', hint: 'Years 3–6' },
+s: { key: 's', label: '11–14', bg: '#FFCF2C', hint: 'KS3' },
+g: { key: 'g', label: '14–16', bg: '#80B3DD', hint: 'GCSE' }
+};
+var B = function (p) { return p; };
+var FMT = ['PDF', 'PowerPoint', 'Interactive', 'Video'];
+
+function C(title, id, count, level, ages, back, mid) { return { type: 'c', title: title, img: B(id), count: count, level: level, ageKeys: ages, ages: ages.map(function (k) { return AGE[k]; }), back: back, mid: mid }; }
+var best = C('Electricity and batteries', '../assets/thumbnails/electricity-and-batteries.jpg', '36 resources', 'Primary', ['p'], '#CFEDE0', '#A7DCC5');
+var cols = [
+C('Electricity from the wind', '../assets/thumbnails/electricity-from-the-wind.jpg', '2 resources', 'Secondary', ['s'], '#FFEDB0', '#FFDB66'),
+C('Energy, electricity and the wind', '../assets/thumbnails/energy-electricity-and-the-wind.jpg', '18 resources', 'Secondary', ['s'], '#C9DCF0', '#AFCBE8'),
+C('Design an electric helicopter', '../assets/thumbnails/design-an-electric-helicopter.jpg', '13 resources', 'Primary', ['p'], '#CFEDE0', '#A7DCC5'),
+C('Energy transfers, electricity and the wind', '../assets/thumbnails/energy-transfers-electricity-and-the-wind.jpg', '2 resources', 'Secondary', ['s'], '#FFEDB0', '#FFDB66')
+];
+function R(title, id, level, ages, fmt, badge, kind) { return { type: 'r', title: title, img: B(id), level: level, ageKeys: ages, ages: ages.map(function (k) { return AGE[k]; }), fmt: fmt, badge: badge, kind: kind }; }
+var res = [
+R('Careers linked to electricity poster', '../assets/thumbnails/careers-linked-to-electricity-poster.jpg', 'Primary, Secondary', ['p', 's'], 'PDF', 'POSTER · PDF', 'careers'),
+R('Meet a data analyst presentation', '../assets/thumbnails/meet-a-data-analyst-presentation.jpg', 'Primary', ['p'], 'PowerPoint', 'POWERPOINT', 'careers'),
+R('Electricity from the wind presentation', '../assets/thumbnails/electricity-from-the-wind-presentation.jpg', 'Secondary', ['s'], 'PowerPoint', 'POWERPOINT', 'teaching'),
+R('Meet a wind turbine technician job card', '../assets/thumbnails/meet-a-wind-turbine-technician-job-card.jpg', 'Secondary', ['s'], 'PDF', 'JOB CARD · PDF', 'careers'),
+R('Nikola Tesla presentation', '../assets/thumbnails/nikola-tesla-presentation.jpg', 'Primary', ['p'], 'PowerPoint', 'POWERPOINT', 'teaching'),
+R('Meet a field service engineer presentation', '../assets/thumbnails/meet-a-field-service-engineer-presentation.jpg', 'Primary', ['p'], 'PowerPoint', 'POWERPOINT', 'careers'),
+R('Energy transfers knowledge organiser', '../assets/thumbnails/energy-transfers-knowledge-organiser.jpg', 'Secondary', ['s'], 'PDF', 'PDF', 'teaching'),
+R('Careers linked to electricity poster (11-16)', '../assets/thumbnails/careers-linked-to-electricity-poster-11-16.jpg', 'Secondary', ['s', 'g'], 'PDF', 'POSTER · PDF', 'careers'),
+R('Check your learning: Energy transfers', '../assets/thumbnails/check-your-learning-energy-transfers.jpg', 'Secondary', ['s'], 'PDF', 'QUIZ · PDF', 'teaching'),
+R('Meet a stakeholder engagement advisor job card', '../assets/thumbnails/meet-a-stakeholder-engagement-advisor-job-card.jpg', 'Secondary', ['s'], 'PDF', 'JOB CARD · PDF', 'careers'),
+R('Nikola Tesla’s life story', '../assets/thumbnails/nikola-teslas-life-story.jpg', 'Primary', ['p'], 'PDF', 'PDF', 'teaching'),
+R('Meet a data analyst job role card (primary)', '../assets/thumbnails/meet-a-data-analyst-job-role-card-primary.jpg', 'Primary', ['p'], 'PDF', 'JOB CARD · PDF', 'careers'),
+R('Circuits and symbols activity sheet 2', '../assets/thumbnails/circuits-and-symbols-activity-sheet-2.jpg', 'Primary', ['p'], 'PDF', 'ACTIVITY · PDF', 'teaching'),
+R('Meet a field service engineer job card', '../assets/thumbnails/meet-a-field-service-engineer-job-card.jpg', 'Primary', ['p'], 'PDF', 'JOB CARD · PDF', 'careers')
+];
+var st = this.state;
+var ageSel = Object.keys(st.ages).filter(function (k) { return st.ages[k]; });
+var fmtSel = Object.keys(st.fmts).filter(function (k) { return st.fmts[k]; });
+function ageOk(it, sel) { return !sel.length || it.ageKeys.some(function (k) { return sel.indexOf(k) > -1; }); }
+function fmtOk(it, sel) { return !sel.length || (it.type === 'r' && sel.indexOf(it.fmt) > -1); }
+var everything = [best].concat(cols, res);
+var match = everything.filter(function (it) { return ageOk(it, ageSel) && fmtOk(it, fmtSel); });
+var mCols = match.filter(function (it) { return it.type === 'c'; });
+var mRes = match.filter(function (it) { return it.type === 'r'; });
+var bestIn = mCols.indexOf(best) > -1;
+var tab = st.tab;
+function toggle(group, key) { return function () { var g = Object.assign({}, st[group]); g[key] = !g[key]; var n = {}; n[group] = g; self.setState(n); }; }
+var ageOpts = ['y', 'p', 's', 'g'].map(function (k) {
+var n = everything.filter(function (it) { return fmtOk(it, fmtSel) && it.ageKeys.indexOf(k) > -1; }).length;
+var on = !!st.ages[k];
+return { label: AGE[k].label, bg: AGE[k].bg, hint: AGE[k].hint, count: n, on: on, disabled: n === 0 && !on, opacity: (n === 0 && !on) ? 0.45 : 1, toggle: toggle('ages', k) };
+});
+var fmtOpts = FMT.map(function (f) {
+var n = res.filter(function (it) { return ageOk(it, ageSel) && it.fmt === f; }).length;
+var on = !!st.fmts[f];
+return { label: f, count: n, on: on, disabled: n === 0 && !on, opacity: (n === 0 && !on) ? 0.45 : 1, toggle: toggle('fmts', f) };
+});
+var applied = ageSel.map(function (k) { return { label: 'Ages ' + AGE[k].label, remove: toggle('ages', k) }; })
+.concat(fmtSel.map(function (f) { return { label: f, remove: toggle('fmts', f) }; }));
+var kind = st.kind;
+var kRes = mRes.filter(function (r) { return kind === 'all' || r.kind === kind; });
+var shownRes = tab === 'all' ? kRes.slice(0, 8) : kRes;
+var showTop = tab === 'all' && bestIn;
+var shownCols = tab === 'all' ? mCols.filter(function (c) { return c !== best; }) : mCols;
+var count = function (k) { return mRes.filter(function (r) { return k === 'all' || r.kind === k; }).length; };
+return {
+total: match.length,
+tabs: [['all', 'All', match.length], ['collections', 'Collections', mCols.length], ['resources', 'Resources', mRes.length]].map(function (t) {
+return { label: t[1], count: t[2], active: tab === t[0], inactive: tab !== t[0], pick: function () { self.setState({ tab: t[0] }); } };
+}),
+chips: [['all', 'All'], ['careers', 'Careers & role models'], ['teaching', 'Teaching resources']].map(function (c) {
+return { label: c[1], count: count(c[0]), active: kind === c[0], inactive: kind !== c[0], pick: function () { self.setState({ kind: c[0] }); } };
+}),
+ageOpts: ageOpts, fmtOpts: fmtOpts, applied: applied,
+hasFilters: applied.length > 0,
+clearAll: function () { self.setState({ ages: {}, fmts: {} }); },
+showTop: showTop,
+showCollections: tab !== 'resources' && shownCols.length > 0,
+showResources: tab !== 'collections' && kRes.length > 0,
+collections: shownCols,
+collectionLabel: showTop ? mCols.length + ', including best match' : String(mCols.length),
+resCount: mRes.length,
+resources: shownRes,
+showMore: tab === 'all' && kRes.length > 8,
+moreLabel: 'Show all ' + kRes.length + ' resources',
+more: function () { self.setState({ tab: 'resources' }); }
+};
+}
+}
+</script>
+</body>
+</html>

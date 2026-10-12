@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>Energising Futures — Homepage, signed in</title>
+<!-- Design reference only. Authored in the Claude Design canvas format: <x-dc>, <helmet>, <sc-for>/<sc-if> and {{holes}} are template syntax; logic lives in the Component class at the bottom. Rebuild as Vue components; do not ship this file. -->
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&amp;family=Figtree:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF;color:#110E63;font-family:Figtree, "Proxima Nova", system-ui, sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#110E63}a:hover{color:#3A3784}
+h1,h2,h3{font-family:Poppins, system-ui, sans-serif;text-wrap:balance}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #FFCF2C;outline-offset:2px}
+.lift{transition:transform .25s ease, box-shadow .25s ease}
+.lift:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(17,14,99,.14)}
+</style>
+</helmet>
+<div style="min-width: 0; overflow-x: hidden">
+
+<header style="background: #FFFFFF; position: relative; z-index: 2">
+<div style="max-width: 1320px; margin: 0 auto; padding: 14px 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px 40px">
+<a href="01-homepage.html" aria-label="Energising Futures home" style="display: block; line-height: 0"><img src="../assets/brand/ef-logo.svg" alt="Energising Futures" style="height: 72px; width: auto"></a>
+<nav aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 4px 30px; align-items: center; flex: 1 1 560px; font-weight: 700; font-size: 16px">
+<a href="#" style="text-decoration: none; padding: 10px 0">Primary</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">Secondary</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">Collections</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">Interactives</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">Careers</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">Ultimate STEM Challenge</a>
+<a href="#" style="text-decoration: none; padding: 10px 0">CPD</a>
+</nav>
+<div style="display: flex; align-items: center; gap: 10px">
+<a href="02-search-typeahead.html" aria-label="Search" style="width: 48px; height: 48px; border-radius: 999px; background: #F1F1F8; display: flex; align-items: center; justify-content: center; color: #110E63"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></a>
+<button type="button" aria-label="Account menu for Sam" style="display: flex; align-items: center; gap: 10px; height: 48px; padding: 0 16px 0 6px; border: 0; border-radius: 999px; background: #110E63; color: #FFFFFF; font: 700 15px Figtree, sans-serif; cursor: pointer">
+<span aria-hidden="true" style="width: 36px; height: 36px; border-radius: 999px; background: #FFCF2C; color: #110E63; display: flex; align-items: center; justify-content: center; font-weight: 800">S</span>Sam
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg>
+</button>
+</div>
+</div>
+</header>
+
+<!-- WELCOME -->
+<section style="background: #8FB4DC; position: relative; overflow: hidden">
+<img src="../assets/brand/assorted-icons-1.svg" alt="" aria-hidden="true" style="position: absolute; right: -60px; top: -40px; width: 820px; max-width: none; opacity: 0.22; pointer-events: none">
+<div style="max-width: 1320px; margin: 0 auto; padding: 52px 32px 60px; display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 32px; position: relative">
+<div style="flex: 1 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<h1 style="margin: 0; font-size: 56px; line-height: 1.02; font-weight: 800; letter-spacing: -0.02em">Welcome back, Sam</h1>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 16px; font-weight: 700">
+<span>Showing you resources for</span>
+<span style="background: #5FBE98; border-radius: 999px; padding: 5px 12px; font-weight: 800; box-shadow: 0 0 0 2px #FFFFFF">7–11</span>
+<span style="background: #FFCF2C; border-radius: 999px; padding: 5px 12px; font-weight: 800; box-shadow: 0 0 0 2px #FFFFFF">11–14</span>
+<a href="#" style="font-weight: 800; padding: 6px 4px">Change</a>
+</div>
+<form role="search" action="#" style="display: flex; align-items: center; gap: 8px; background: #FFFFFF; border-radius: 999px; padding: 8px 8px 8px 26px; max-width: 640px; box-shadow: 0 14px 34px rgba(17,14,99,0.22)">
+<label for="si-search" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Search resources</label>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#110E63" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+<input id="si-search" type="search" placeholder="What are you teaching next?" style="flex: 1; min-width: 0; border: 0; outline-offset: 6px; font: 500 18px Figtree, sans-serif; color: #110E63; background: transparent; padding: 14px 4px">
+<a href="02-search-typeahead.html" style="background: #110E63; color: #FFFFFF; text-decoration: none; border-radius: 999px; padding: 16px 30px; font-weight: 800; font-size: 17px">Search</a>
+</form>
+</div>
+<div style="display: flex; gap: 12px; flex-wrap: wrap">
+<a href="#" style="display: flex; flex-direction: column; gap: 2px; background: #FFFFFF; border-radius: 22px; padding: 18px 22px; text-decoration: none; min-width: 150px">
+<strong style="font-family: Poppins, sans-serif; font-size: 32px; line-height: 1">4</strong><span style="font-size: 15px; font-weight: 700">Saved resources</span></a>
+<a href="#" style="display: flex; flex-direction: column; gap: 2px; background: #110E63; color: #FFFFFF; border-radius: 22px; padding: 18px 22px; text-decoration: none; min-width: 150px">
+<strong style="font-family: Poppins, sans-serif; font-size: 32px; line-height: 1">2</strong><span style="font-size: 15px; font-weight: 700">Student resources</span></a>
+</div>
+</div>
+</section>
+
+<!-- MY RESOURCES -->
+<section style="padding: 40px 0 64px">
+<div style="max-width: 1320px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<h2 style="margin: 0; font-size: 40px; line-height: 1.1; font-weight: 800; letter-spacing: -0.015em">Pick up where you left off</h2>
+<p style="margin: 0; font-size: 17px; color: #4A4785">Your saved resources and collections.</p>
+</div>
+<a href="#" style="font-weight: 800; font-size: 17px">Go to My resources</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 24px">
+
+<article class="lift" style="display: flex; flex-direction: column; gap: 12px; border-radius: 22px; padding: 10px 10px 18px; background: #FFFFFF; border: 1.5px solid #E9E9F1">
+<div style="border-radius: 14px; overflow: hidden; position: relative; line-height: 0">
+<img src="../assets/thumbnails/electricity-and-batteries.jpg" alt="" style="width: 100%; aspect-ratio: 800 / 492; object-fit: cover; display: block">
+<span style="position: absolute; left: 8px; top: 8px; display: flex; align-items: center; gap: 6px; background: #110E63; color: #FFFFFF; border-radius: 999px; padding: 5px 10px; font-size: 12px; font-weight: 800; line-height: 1.2"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5z"></path><path d="M3 13l9 5 9-5"></path></svg>COLLECTION · 36</span>
+<button type="button" aria-label="Remove from My resources" aria-pressed="true" style="position: absolute; right: 6px; top: 6px; width: 44px; height: 44px; border: 0; border-radius: 999px; background: #FFCF2C; color: #110E63; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"></path></svg></button>
+</div>
+<div style="padding: 0 8px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Primary</span><span style="background: #5FBE98; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">7–11</span></div>
+<h3 style="margin: 0; font-size: 18px; line-height: 1.3; font-weight: 800"><a href="#" style="text-decoration: none">Electricity and batteries</a></h3>
+<span style="font-size: 14px; font-weight: 600; color: #4A4785">Saved last week</span>
+</div>
+</article>
+
+<article class="lift" style="display: flex; flex-direction: column; gap: 12px; border-radius: 22px; padding: 10px 10px 18px; background: #FFFFFF; border: 1.5px solid #E9E9F1">
+<div style="border-radius: 14px; overflow: hidden; position: relative; line-height: 0">
+<img src="../assets/thumbnails/meet-a-data-analyst-presentation.jpg" alt="" style="width: 100%; aspect-ratio: 800 / 492; object-fit: cover; display: block">
+<span style="position: absolute; left: 8px; top: 8px; background: #FFFFFF; border-radius: 999px; padding: 5px 10px; font-size: 12px; font-weight: 800; line-height: 1.2">POWERPOINT</span>
+<button type="button" aria-label="Remove from My resources" aria-pressed="true" style="position: absolute; right: 6px; top: 6px; width: 44px; height: 44px; border: 0; border-radius: 999px; background: #FFCF2C; color: #110E63; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"></path></svg></button>
+</div>
+<div style="padding: 0 8px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Primary</span><span style="background: #5FBE98; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">7–11</span></div>
+<h3 style="margin: 0; font-size: 18px; line-height: 1.3; font-weight: 800"><a href="#" style="text-decoration: none">Meet a data analyst presentation</a></h3>
+<span style="font-size: 14px; font-weight: 600; color: #4A4785">Saved last week</span>
+</div>
+</article>
+
+<article class="lift" style="display: flex; flex-direction: column; gap: 12px; border-radius: 22px; padding: 10px 10px 18px; background: #FFFFFF; border: 1.5px solid #E9E9F1">
+<div style="border-radius: 14px; overflow: hidden; position: relative; line-height: 0">
+<img src="../assets/thumbnails/energy-transfers-knowledge-organiser.jpg" alt="" style="width: 100%; aspect-ratio: 800 / 492; object-fit: cover; display: block">
+<span style="position: absolute; left: 8px; top: 8px; background: #FFFFFF; border-radius: 999px; padding: 5px 10px; font-size: 12px; font-weight: 800; line-height: 1.2">PDF</span>
+<button type="button" aria-label="Remove from My resources" aria-pressed="true" style="position: absolute; right: 6px; top: 6px; width: 44px; height: 44px; border: 0; border-radius: 999px; background: #FFCF2C; color: #110E63; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"></path></svg></button>
+</div>
+<div style="padding: 0 8px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Secondary</span><span style="background: #FFCF2C; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">11–14</span></div>
+<h3 style="margin: 0; font-size: 18px; line-height: 1.3; font-weight: 800"><a href="#" style="text-decoration: none">Energy transfers knowledge organiser</a></h3>
+<span style="font-size: 14px; font-weight: 600; color: #4A4785">Saved 3 weeks ago</span>
+</div>
+</article>
+
+<article class="lift" style="display: flex; flex-direction: column; gap: 12px; border-radius: 22px; padding: 10px 10px 18px; background: #FFFFFF; border: 1.5px solid #E9E9F1">
+<div style="border-radius: 14px; overflow: hidden; position: relative; line-height: 0">
+<img src="../assets/thumbnails/rocket-science-primary.jpg" alt="" style="width: 100%; aspect-ratio: 800 / 492; object-fit: cover; display: block">
+<span style="position: absolute; left: 8px; top: 8px; background: #FFFFFF; border-radius: 999px; padding: 5px 10px; font-size: 12px; font-weight: 800; line-height: 1.2">PDF</span>
+<button type="button" aria-label="Remove from My resources" aria-pressed="true" style="position: absolute; right: 6px; top: 6px; width: 44px; height: 44px; border: 0; border-radius: 999px; background: #FFCF2C; color: #110E63; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"></path></svg></button>
+</div>
+<div style="padding: 0 8px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Primary</span><span style="background: #5FBE98; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">7–11</span></div>
+<h3 style="margin: 0; font-size: 18px; line-height: 1.3; font-weight: 800"><a href="#" style="text-decoration: none">Rocket science (primary)</a></h3>
+<span style="font-size: 14px; font-weight: 600; color: #4A4785">Saved 2 months ago</span>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<!-- NEW FOR YOUR CLASSES -->
+<section style="padding: 64px 0 80px; background: #F3F3F9">
+<div style="max-width: 1320px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<h2 style="margin: 0; font-size: 40px; line-height: 1.1; font-weight: 800; letter-spacing: -0.015em">New for your classes</h2>
+<p style="margin: 0; font-size: 17px; color: #4A4785">Added since your last visit, for ages 7–11 and 11–14.</p>
+</div>
+<a href="#" style="font-weight: 800; font-size: 17px">See everything new</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 24px">
+
+<article class="lift" style="display: flex; flex-direction: column; gap: 12px; border-radius: 22px; padding: 10px 10px 18px; background: #FFFFFF">
+<div style="border-radius: 14px; overflow: hidden; position: relative; line-height: 0">
+<img src="../assets/thumbnails/ready-steady-science-halloween-activities.jpg" alt="" style="width: 100%; aspect-ratio: 800 / 492; object-fit: cover; display: block">
+<span style="position: absolute; left: 8px; top: 8px; background: #FFCF2C; border-radius: 999px; padding: 5px 10px; font-size: 12px; font-weight: 800; line-height: 1.2">NEW · PDF</span>
+<button type="button" aria-label="Save to My resources" style="position: absolute; right: 6px; top: 6px; width: 44px; height: 44px; border: 0; border-radius: 999px; background: #FFFFFF; color: #110E63; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"></path></svg></button>
+</div>
+<div style="padding: 0 8px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Primary</span><span style="background: #5FBE98; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">7–11</span></div>
+<h3 style="margin: 0; font-size: 18px; line-height: 1.3; font-weight: 800"><a href="#" style="text-decoration: none">Ready. Steady. Science! Halloween activities</a></h3>
+</div>
+</article>
+
+<article class="lift" style="display: flex; flex-direction: column; gap: 12px; border-radius: 22px; padding: 10px 10px 18px; background: #FFFFFF">
+<div style="border-radius: 14px; overflow: hidden; position: relative; line-height: 0">
+<img src="../assets/thumbnails/the-secret-science-of-bonfire-night-primary.jpg" alt="" style="width: 100%; aspect-ratio: 800 / 492; object-fit: cover; display: block">
+<span style="position: absolute; left: 8px; top: 8px; background: #FFCF2C; border-radius: 999px; padding: 5px 10px; font-size: 12px; font-weight: 800; line-height: 1.2">NEW · POSTER</span>
+<button type="button" aria-label="Save to My resources" style="position: absolute; right: 6px; top: 6px; width: 44px; height: 44px; border: 0; border-radius: 999px; background: #FFFFFF; color: #110E63; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"></path></svg></button>
+</div>
+<div style="padding: 0 8px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Primary</span><span style="background: #5FBE98; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">7–11</span></div>
+<h3 style="margin: 0; font-size: 18px; line-height: 1.3; font-weight: 800"><a href="#" style="text-decoration: none">The secret science of Bonfire Night (primary)</a></h3>
+</div>
+</article>
+
+<article class="lift" style="display: flex; flex-direction: column; gap: 12px; border-radius: 22px; padding: 10px 10px 18px; background: #FFFFFF">
+<div style="border-radius: 14px; overflow: hidden; position: relative; line-height: 0">
+<img src="../assets/thumbnails/brilliant-black-scientists-shaping-our-world-primary.jpg" alt="" style="width: 100%; aspect-ratio: 800 / 492; object-fit: cover; display: block">
+<span style="position: absolute; left: 8px; top: 8px; background: #FFCF2C; border-radius: 999px; padding: 5px 10px; font-size: 12px; font-weight: 800; line-height: 1.2">NEW · POSTER</span>
+<button type="button" aria-label="Save to My resources" style="position: absolute; right: 6px; top: 6px; width: 44px; height: 44px; border: 0; border-radius: 999px; background: #FFFFFF; color: #110E63; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"></path></svg></button>
+</div>
+<div style="padding: 0 8px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Primary</span><span style="background: #5FBE98; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">7–11</span></div>
+<h3 style="margin: 0; font-size: 18px; line-height: 1.3; font-weight: 800"><a href="#" style="text-decoration: none">Brilliant Black scientists shaping our world (primary)</a></h3>
+</div>
+</article>
+
+<article class="lift" style="display: flex; flex-direction: column; gap: 12px; border-radius: 22px; padding: 10px 10px 18px; background: #FFFFFF">
+<div style="border-radius: 14px; overflow: hidden; position: relative; line-height: 0">
+<img src="../assets/thumbnails/all-about-me-resources-secondary.jpg" alt="" style="width: 100%; aspect-ratio: 800 / 492; object-fit: cover; display: block">
+<span style="position: absolute; left: 8px; top: 8px; background: #FFCF2C; border-radius: 999px; padding: 5px 10px; font-size: 12px; font-weight: 800; line-height: 1.2">NEW · PDF</span>
+<button type="button" aria-label="Save to My resources" style="position: absolute; right: 6px; top: 6px; width: 44px; height: 44px; border: 0; border-radius: 999px; background: #FFFFFF; color: #110E63; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"></path></svg></button>
+</div>
+<div style="padding: 0 8px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; font-weight: 700"><span style="color: #4A4785; margin-right: 2px">Secondary</span><span style="background: #FFCF2C; border-radius: 999px; padding: 3px 10px; box-shadow: 0 0 0 2px #FFFFFF">11–14</span></div>
+<h3 style="margin: 0; font-size: 18px; line-height: 1.3; font-weight: 800"><a href="#" style="text-decoration: none">All about me resources (secondary)</a></h3>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<footer style="background: #F3F3F9">
+<div style="max-width: 1320px; margin: 0 auto; padding: 40px 32px 40px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 18px; max-width: 400px">
+<img src="../assets/brand/ef-logo.svg" alt="Energising Futures" style="height: 64px; width: auto; align-self: flex-start">
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #4A4785">A free STEM hub, previously the bp Educational Service. Produced with the Association for Science Education.</p>
+</div>
+<nav aria-label="Footer" style="display: grid; grid-template-columns: repeat(2, minmax(150px, auto)); gap: 12px 56px; font-size: 15px; font-weight: 700">
+<a href="#">News</a><a href="#">Cookie policy</a>
+<a href="#">About us</a><a href="#">Legal notice</a>
+<a href="#">FAQs</a><a href="#">Privacy policy</a>
+<a href="#">Contact us</a><a href="#">Accessibility statement</a>
+</nav>
+</div>
+<p style="margin: 0; font-size: 14px; color: #4A4785">© 2026 We Are Futures. All rights reserved.</p>
+</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1900}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

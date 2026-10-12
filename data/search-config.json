@@ -1,0 +1,63 @@
+{
+  "ageBands": {
+    "_note": "Live site bands → prototype bands. 7-9 and 9-11 merged into 7-11: open question for client.",
+    "4-7": "4-7", "7-9": "7-11", "9-11": "7-11", "7-11": "7-11", "11-14": "11-14", "14-16": "14-16"
+  },
+  "ageLabels": {
+    "4-7": { "label": "4–7", "hint": "Reception–Y2", "level": "Primary", "colour": "#C3B3EE" },
+    "7-11": { "label": "7–11", "hint": "Years 3–6", "level": "Primary", "colour": "#5FBE98" },
+    "11-14": { "label": "11–14", "hint": "KS3", "level": "Secondary", "colour": "#FFCF2C" },
+    "14-16": { "label": "14–16", "hint": "GCSE", "level": "Secondary", "colour": "#80B3DD" }
+  },
+  "queryToAge": {
+    "reception": "4-7", "year 1": "4-7", "year 2": "4-7", "y1": "4-7", "y2": "4-7", "ks1": "4-7", "key stage 1": "4-7", "eyfs": "4-7",
+    "year 3": "7-11", "year 4": "7-11", "year 5": "7-11", "year 6": "7-11", "y3": "7-11", "y4": "7-11", "y5": "7-11", "y6": "7-11", "ks2": "7-11", "key stage 2": "7-11",
+    "year 7": "11-14", "year 8": "11-14", "year 9": "11-14", "y7": "11-14", "y8": "11-14", "y9": "11-14", "ks3": "11-14", "key stage 3": "11-14",
+    "year 10": "14-16", "year 11": "14-16", "y10": "14-16", "y11": "14-16", "ks4": "14-16", "key stage 4": "14-16", "gcse": "14-16"
+  },
+  "queryToFormat": {
+    "ppt": "PowerPoint", "powerpoint": "PowerPoint", "slides": "PowerPoint", "presentation": "PowerPoint",
+    "pdf": "PDF", "video": "Video", "videos": "Video", "interactive": "Interactive", "game": "Interactive", "games": "Interactive"
+  },
+  "queryToKind": {
+    "job": "careers", "jobs": "careers", "career": "careers", "careers": "careers", "role model": "careers"
+  },
+  "stopwords": ["lesson", "lessons", "resource", "resources", "for", "the", "a", "an", "and", "of", "about", "on", "teaching", "class", "pupils", "students"],
+  "synonyms": {
+    "electric": ["electricity"], "circuit": ["circuits", "electricity"], "battery": ["batteries", "electricity"],
+    "space": ["rocket", "planet", "asteroid"], "plants": ["photosynthesis", "living things"], "animals": ["habitats", "living things", "minibeasts"],
+    "body": ["human body", "digestion", "circulatory"], "magnet": ["magnetism", "magnetic"], "renewable": ["wind", "solar", "hydrogen"]
+  },
+  "topics": [
+    { "name": "Electricity", "match": ["electric", "circuit", "battery", "batteries"] },
+    { "name": "Energy transfers", "match": ["energy transfer", "energy stores"] },
+    { "name": "Circuits", "match": ["circuit"] },
+    { "name": "Wind energy", "match": ["wind"] },
+    { "name": "Space", "match": ["space", "rocket", "asteroid", "planet"] },
+    { "name": "Materials", "match": ["material"] },
+    { "name": "Human body", "match": ["human body", "digestion", "circulatory", "heart"] },
+    { "name": "Food and nutrition", "match": ["food", "nutrition", "diet"] },
+    { "name": "Living things and habitats", "match": ["habitat", "living things", "minibeast", "animal", "biodiversity"] },
+    { "name": "Plants and photosynthesis", "match": ["photosynthesis", "plant"] },
+    { "name": "Rocks and fossils", "match": ["rocks", "rock ", "fossil"] },
+    { "name": "Waves", "match": ["wave"] },
+    { "name": "Chemical reactions", "match": ["electrolysis", "hydrocarbon", "reaction", "fuel"] },
+    { "name": "Weather and seasons", "match": ["weather", "winter", "autumn", "spring", "summer"] },
+    { "name": "Robotics", "match": ["robot"] },
+    { "name": "Scientists", "match": ["scientist", "tesla", "attenborough"] }
+  ],
+  "ranking": {
+    "_note": "Tuning for useSearch. Field weights follow the brief (title 3, topics 2, description 1).",
+    "weights": { "title": 3, "topics": 2, "description": 1 },
+    "prefixFactor": 0.8,
+    "synonymFactor": 0.6,
+    "collectionBoost": 1.1,
+    "titleStartsWithBoost": 2,
+    "resourceCountBoost": 1,
+    "bestMatchMargin": 1.1,
+    "fuzzyThreshold": 0.35,
+    "correctionThreshold": 0.4
+  },
+  "careersPattern":"careers?|\\bjob\\b|meet a|role card",
+  "_careersPatternNote": "Match against TITLE only. Descriptions mention 'career' too loosely (e.g. Nikola Tesla resources)."
+}

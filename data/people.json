@@ -1,0 +1,32 @@
+[
+  {
+    "id": "imisi",
+    "name": "Imisi",
+    "role": "Data analyst",
+    "image": "/people/imisi.png",
+    "cardColour": "yellow",
+    "badge": "PRESENTATION",
+    "itemId": "meet-a-data-analyst-presentation",
+    "relatedTerms": ["electricity", "electric", "data", "energy", "maths", "careers"]
+  },
+  {
+    "id": "amelia",
+    "name": "Amelia",
+    "role": "Graduate food technologist",
+    "image": "/people/amelia.jpg",
+    "cardColour": "white",
+    "badge": "VIDEO",
+    "itemId": "food-nutrition-and-digestion-amelia",
+    "relatedTerms": ["food", "nutrition", "digestion", "diet", "careers"]
+  },
+  {
+    "id": "james",
+    "name": "James",
+    "role": "Field service engineer",
+    "image": "/people/james.png",
+    "cardColour": "green",
+    "badge": "PRESENTATION",
+    "itemId": "meet-a-field-service-engineer-presentation",
+    "relatedTerms": ["electricity", "electric", "ev", "charging", "engineer", "careers"]
+  }
+]

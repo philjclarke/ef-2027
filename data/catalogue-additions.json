@@ -1,0 +1,227 @@
+{
+ "_note": "Hand-added items merged into catalogue.json at load time. The scraped catalogue has no Interactive-format items; these are the 9 real resources from the live /collections/interactive-science-games/ page (fetched 2026-10-12). Kept separate so a rescrape does not overwrite them.",
+ "items": [
+  {
+   "id": "greenhouse-effect-quiz",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Greenhouse effect interactive quiz",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "11-14",
+    "14-16"
+   ],
+   "format": "Interactive",
+   "resourceCount": null,
+   "description": "Can students understand and answer questions in this quiz to test and build their knowledge around this topic? Let's find out!",
+   "liveUrl": "https://energisingfutures.co.uk/resources/greenhouse-effect-quiz/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2024/02/EF_Greenhouse-Effect-Quiz-Interactive-1996x1228px-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2024/02/EF_Greenhouse-Effect-Quiz-Interactive-1996x1228px.jpg",
+    "local": "/thumbnails/greenhouse-effect-interactive-quiz.jpg"
+   }
+  },
+  {
+   "id": "circuits-interactive-online-experiment",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Circuits interactive online experiment",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": "Interactive",
+   "resourceCount": null,
+   "description": "An interactive online experiment to help pupils develop their understanding and knowledge of circuits.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/circuits-interactive-online-experiment/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/11/Resource-Thumb-Interactive-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/11/Resource-Thumb-Interactive.jpg",
+    "local": "/thumbnails/circuits-interactive-online-experiment.jpg"
+   }
+  },
+  {
+   "id": "periodic-table-challenge",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Periodic table challenge interactive",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "11-14",
+    "14-16"
+   ],
+   "format": "Interactive",
+   "resourceCount": null,
+   "description": "An interactive game helping students develop and test their knowledge of periodic table elements, and their properties.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/periodic-table-challenge/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/07/Periodic-Table-Interactive_Thumbnail-1-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/07/Periodic-Table-Interactive_Thumbnail-1.png",
+    "local": "/thumbnails/periodic-table-challenge-interactive.jpg"
+   }
+  },
+  {
+   "id": "friction-online-experiment",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Friction online experiment",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": "Interactive",
+   "resourceCount": null,
+   "description": "Join Kate, Ravi and Bubbles as they discover more about friction through an online experiment. Be with them every step of the way as they find out about what makes something a fair test, different variables that impact experiments and how to choose the right equipment to measure, record, present and evaluate results.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/friction-online-experiment/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2024/01/EF_Friction-online-experiment-1996x1228px-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2024/01/EF_Friction-online-experiment-1996x1228px.jpg",
+    "local": "/thumbnails/friction-online-experiment.jpg"
+   }
+  },
+  {
+   "id": "air-resistance-online-experiment",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Air resistance online experiment",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": "Interactive",
+   "resourceCount": null,
+   "description": "Explore air resistance though sycamore seeds and paper spinners in this online quiz",
+   "liveUrl": "https://energisingfutures.co.uk/resources/air-resistance-online-experiment/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/EF_AirResistance-interactive-ResourceImage-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/EF_AirResistance-interactive-ResourceImage.jpg",
+    "local": "/thumbnails/air-resistance-online-experiment.jpg"
+   }
+  },
+  {
+   "id": "animal-explorer-interactive-7-11",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Animal explorer interactive (7-11)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": "Interactive",
+   "resourceCount": null,
+   "description": "An innovative, fun and engaging interactive with images, facts and quizzes about the variety of life in our animal kingdom.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/animal-explorer-interactive-7-11/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/10/EF_Interactive-animal-explorer-7-11-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/10/EF_Interactive-animal-explorer-7-11.jpg",
+    "local": "/thumbnails/animal-explorer-interactive-7-11.jpg"
+   }
+  },
+  {
+   "id": "animal-explorer-online-game-4-7",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Animal explorer interactive (4-7)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7"
+   ],
+   "agesOriginal": [
+    "4-7"
+   ],
+   "format": "Interactive",
+   "resourceCount": null,
+   "description": "An innovative, fun and engaging interactive with images, facts and quizzes about the variety of life in our animal kingdom.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/animal-explorer-online-game-4-7/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/09/ES_Interactive-animal-explorer-thumbnail-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/09/ES_Interactive-animal-explorer-thumbnail.jpg",
+    "local": "/thumbnails/animal-explorer-interactive-4-7.jpg"
+   }
+  },
+  {
+   "id": "rock-explorer-virtual-rock-kit",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Rock explorer virtual rock kit",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": "Interactive",
+   "resourceCount": null,
+   "description": "An interactive rock kit containing images, facts and quizzes about rock features, groups, properties and uses.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/rock-explorer-virtual-rock-kit/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/06/Interactive_Rock-Interactive-1996x1228px-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/06/Interactive_Rock-Interactive-1996x1228px.jpg",
+    "local": "/thumbnails/rock-explorer-virtual-rock-kit.jpg"
+   }
+  },
+  {
+   "id": "deforestation-interactive-quiz",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Effects of deforestation interactive quiz",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "11-14",
+    "14-16"
+   ],
+   "format": "Interactive",
+   "resourceCount": null,
+   "description": "Can students save the fictional land of Arborica by using their science knowledge to answer questions about climate change? Let's find out!",
+   "liveUrl": "https://energisingfutures.co.uk/resources/deforestation-interactive-quiz/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/08/EF_ClimateChangeDeforestation-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/08/EF_ClimateChangeDeforestation.jpg",
+    "local": "/thumbnails/effects-of-deforestation-interactive-quiz.jpg"
+   }
+  }
+ ]
+}

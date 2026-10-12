@@ -1,0 +1,2514 @@
+{
+ "source": "energisingfutures.co.uk (homepage, /collections/, search for electricity and magnet)",
+ "scrapedAt": "2026-10-12T10:09:00.173Z",
+ "count": 98,
+ "items": [
+  {
+   "id": "rss-halloween-activities",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Ready. Steady. Science! Halloween activities",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Discover the science and scientists behind spooky season with these fun, hands-on activities, from dancing ghosts to flying bats. Perfect for reigniting engagement and curiosity at the end of term.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/rss-halloween-activities/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/RSS-Halloween-Pri-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/RSS-Halloween-Pri.png",
+    "local": "/thumbnails/ready-steady-science-halloween-activities.jpg"
+   }
+  },
+  {
+   "id": "the-secret-science-of-bonfire-night-primary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "The secret science of Bonfire Night (primary)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "9-11",
+    "7-9"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "A stunning poster to excite pupils and ignite curiosity as Bonfire Night approaches. Discover the science and scientists behind the sparks, flames and explosive reactions.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/the-secret-science-of-bonfire-night-primary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/Bonfire-Night-Pri-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/Bonfire-Night-Pri.png",
+    "local": "/thumbnails/the-secret-science-of-bonfire-night-primary.jpg"
+   }
+  },
+  {
+   "id": "the-secret-science-of-bonfire-night-secondary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "The secret science of Bonfire Night (secondary)",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "11-14",
+    "14-16"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "A stunning poster to excite students and ignite curiosity as Bonfire Night approaches. Discover the science and scientists behind the sparks, flames and explosive reactions.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/the-secret-science-of-bonfire-night-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/Bonfire-Night-Sec-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/Bonfire-Night-Sec.png",
+    "local": "/thumbnails/the-secret-science-of-bonfire-night-secondary.jpg"
+   }
+  },
+  {
+   "id": "brilliant-black-scientists-shaping-our-world-primary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Brilliant Black scientists shaping our world (primary)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Celebrate Black History Month and beyond with this poster showcasing five trailblazing Black British scientists. Discover how their work shapes the world we live in, from healthcare to disaster response, inspiring every learner to follow in their footsteps.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/brilliant-black-scientists-shaping-our-world-primary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/Pri-BHM-2026-Poster-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/Pri-BHM-2026-Poster.png",
+    "local": "/thumbnails/brilliant-black-scientists-shaping-our-world-primary.jpg"
+   }
+  },
+  {
+   "id": "brilliant-black-scientists-shaping-our-world-secondary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Brilliant Black scientists shaping our world (secondary)",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "11-14",
+    "14-16"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Celebrate Black History Month and beyond with this poster showcasing five trailblazing Black British scientists. Discover how their work shapes the world we live in, from healthcare to disaster response, inspiring every learner to follow in their footsteps.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/brilliant-black-scientists-shaping-our-world-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/Sec-BHM-2026-Poster-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/Sec-BHM-2026-Poster.png",
+    "local": "/thumbnails/brilliant-black-scientists-shaping-our-world-secondary.jpg"
+   }
+  },
+  {
+   "id": "all-about-me-resources-primary",
+   "kind": "collection",
+   "legacyType": "lesson",
+   "title": "All about me resources (primary)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11"
+   ],
+   "format": null,
+   "resourceCount": 2,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/lessons/all-about-me-resources-primary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/Aam-Lesson-Primary-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/Aam-Lesson-Primary.png",
+    "local": "/thumbnails/all-about-me-resources-primary.jpg"
+   }
+  },
+  {
+   "id": "all-about-me-resources-secondary",
+   "kind": "collection",
+   "legacyType": "lesson",
+   "title": "All about me resources (secondary)",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "11-14",
+    "14-16"
+   ],
+   "format": null,
+   "resourceCount": 2,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/lessons/all-about-me-resources-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/Aam-Lesson-Secondary-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/Aam-Lesson-Secondary.png",
+    "local": "/thumbnails/all-about-me-resources-secondary.jpg"
+   }
+  },
+  {
+   "id": "our-roborevolution-challenge-primary",
+   "kind": "collection",
+   "legacyType": "lesson",
+   "title": "Our RoboRevolution challenge: Primary",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "9-11",
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 6,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/lessons/our-roborevolution-challenge-primary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/RoboRev-RWC-Primary-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/RoboRev-RWC-Primary.png",
+    "local": "/thumbnails/our-roborevolution-challenge-primary.jpg"
+   }
+  },
+  {
+   "id": "our-roborevolution-challenge-secondary",
+   "kind": "collection",
+   "legacyType": "lesson",
+   "title": "Our RoboRevolution challenge: Secondary",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "9-11",
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 6,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/lessons/our-roborevolution-challenge-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/RoboRev-RWC-Secondary-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/RoboRev-RWC-Secondary.png",
+    "local": "/thumbnails/our-roborevolution-challenge-secondary.jpg"
+   }
+  },
+  {
+   "id": "food-nutrition-and-digestion-amelia",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Food, nutrition and digestion: Amelia",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": "Video",
+   "resourceCount": null,
+   "description": "Step into the world of a graduate food technologist and discover the science behind our favourite foods. From chocolate to deli meats, robots to international travel, this video shares the unexpected and varied opportunities available in STEM.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/food-nutrition-and-digestion-amelia/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/07/FND_Amelia-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/07/FND_Amelia.png",
+    "local": "/thumbnails/food-nutrition-and-digestion-amelia.jpg"
+   }
+  },
+  {
+   "id": "food-nutrition-and-digestion-mila",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Food, nutrition and digestion: Mila",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": "Video",
+   "resourceCount": null,
+   "description": "Meet a nutritionist and wellbeing coach to uncover the truth of diet-related treatments and the power of coaching to form healthy habits. Hear her views on GLP1 medications such as Ozempic and Mounjaro, and how there’s so much more to her role than writing meal plans.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/food-nutrition-and-digestion-mila/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/07/FND_Mila-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/07/FND_Mila.png",
+    "local": "/thumbnails/food-nutrition-and-digestion-mila.jpg"
+   }
+  },
+  {
+   "id": "autumn-events-2026-primary",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Autumn/Winter Calendar of events 2026 (primary)",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11",
+    "9-11",
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 84,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/autumn-events-2026-primary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/06/Pri-Events-Calendar-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/06/Pri-Events-Calendar.png",
+    "local": "/thumbnails/autumn-winter-calendar-of-events-2026-primary.jpg"
+   }
+  },
+  {
+   "id": "autumn-events-2026-secondary",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Autumn/Winter Calendar of events 2026 (secondary)",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "7-11",
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "7-11",
+    "11-14",
+    "14-16"
+   ],
+   "format": null,
+   "resourceCount": 102,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/autumn-events-2026-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/06/Sec-Events-Calendar-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/06/Sec-Events-Calendar.png",
+    "local": "/thumbnails/autumn-winter-calendar-of-events-2026-secondary.jpg"
+   }
+  },
+  {
+   "id": "rss-summer-activities",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Ready. Steady. Science! Summer activities",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Discover how boats float, investigate pollinators, make your own insect feeder and find out how much you know about staying safe in the Sun with these fun, summer-themed, low-prep practical activities.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/rss-summer-activities/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/05/RSS-Summer-4-11-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/05/RSS-Summer-4-11.png",
+    "local": "/thumbnails/ready-steady-science-summer-activities.jpg"
+   }
+  },
+  {
+   "id": "rss-desert-island-survival",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Ready. Steady. Science! Desert island survival",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Could your students survive on a desert island? Challenge them to find safe drinking water, build an escape raft and learn plant survival tricks. With a separate, curriculum-linked resource for biology, chemistry and physics, it's the perfect way to bring practical, real-world science and careers into your classroom at the end of summer term.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/rss-desert-island-survival/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/05/RSS-Summer-Secondary-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/05/RSS-Summer-Secondary.png",
+    "local": "/thumbnails/ready-steady-science-desert-island-survival.jpg"
+   }
+  },
+  {
+   "id": "football-posters",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Football posters",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "7-11",
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "7-11",
+    "11-14",
+    "14-16"
+   ],
+   "format": null,
+   "resourceCount": 4,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/football-posters/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/05/Combo-Football-landing-page-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/05/Combo-Football-landing-page.png",
+    "local": "/thumbnails/football-posters.jpg"
+   }
+  },
+  {
+   "id": "walk-to-school-quiz",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Walk to school quiz",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": "PowerPoint",
+   "resourceCount": null,
+   "description": "Discover the science behind why walking to school is better for people and planet with this fun, fact-filled quiz that encourages pupils to become 'Walk to school champions'.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/walk-to-school-quiz/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/04/Walk-to-School-Week-quiz-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/04/Walk-to-School-Week-quiz.png",
+    "local": "/thumbnails/walk-to-school-quiz.jpg"
+   }
+  },
+  {
+   "id": "rss-biodiversity-detectives",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Ready. Steady. Science! Biodiversity detectives",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "A practical activity sheet for students to investigate biodiversity within their local community. Get students outside to work scientifically and connect the curriculum to real-world science and careers.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/rss-biodiversity-detectives/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/04/RSS-Biodiversity-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/04/RSS-Biodiversity.png",
+    "local": "/thumbnails/ready-steady-science-biodiversity-detectives.jpg"
+   }
+  },
+  {
+   "id": "celebrating-100-years-of-sir-david-attenborough",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Celebrating 100 years of Sir David Attenborough",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "7-11",
+    "11-14"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Celebrate 100 years of Sir David Attenborough and his incredible contributions to science with this poster. Discover interesting facts about his life, from collecting fossils to receiving two knighthoods, and inspire the next generation of naturalists.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/celebrating-100-years-of-sir-david-attenborough/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/03/David-Attenborough-Poster-Thumbnail-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/03/David-Attenborough-Poster-Thumbnail.png",
+    "local": "/thumbnails/celebrating-100-years-of-sir-david-attenborough.jpg"
+   }
+  },
+  {
+   "id": "bright-ideas-better-planet-poster",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Bright ideas – Better planet poster",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "7-11",
+    "11-14"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Spark curiosity and boost your students' optimism for the future of our planet with this eye-catching poster. It showcases 10 incredible, planet-saving inventions - from seaweed packaging to solar paint and encourages students to problem-solve themselves.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/bright-ideas-better-planet-poster/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/03/Bright-ideas-poster-Thumbnail-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/03/Bright-ideas-poster-Thumbnail.png",
+    "local": "/thumbnails/bright-ideas-better-planet-poster.jpg"
+   }
+  },
+  {
+   "id": "rocket-science-primary",
+   "kind": "collection",
+   "legacyType": "lesson",
+   "title": "Rocket science (primary)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "9-11"
+   ],
+   "format": null,
+   "resourceCount": 3,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/lessons/rocket-science-primary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/03/Primary-Rocket-Content-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/03/Primary-Rocket-Content.png",
+    "local": "/thumbnails/rocket-science-primary.jpg"
+   }
+  },
+  {
+   "id": "rocket-science-secondary",
+   "kind": "collection",
+   "legacyType": "lesson",
+   "title": "Rocket science (secondary)",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 3,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/lessons/rocket-science-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/03/Secondary-Rocket-Content-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/03/Secondary-Rocket-Content.png",
+    "local": "/thumbnails/rocket-science-secondary.jpg"
+   }
+  },
+  {
+   "id": "what-pet-would-you-choose-poster",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "What pet would you choose? poster",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7"
+   ],
+   "agesOriginal": [
+    "4-7"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Use this poster to help your pupils name and describe the features of their favourite pets, and to sort them into the five vertebrate groups.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/what-pet-would-you-choose-poster/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/03/Pet-Poster-Thumbnail-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/03/Pet-Poster-Thumbnail.png",
+    "local": "/thumbnails/what-pet-would-you-choose-poster.jpg"
+   }
+  },
+  {
+   "id": "revision-resources-2026",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Revision resources: 2026",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "11-14",
+    "14-16"
+   ],
+   "format": null,
+   "resourceCount": 2,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/revision-resources-2026/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/03/Revision-planner-Thumbnails-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/03/Revision-planner-Thumbnails.png",
+    "local": "/thumbnails/revision-resources-2026.jpg"
+   }
+  },
+  {
+   "id": "photosynthesis-check-your-learning-14-16",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Photosynthesis check your learning (14-16)",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "14-16"
+   ],
+   "agesOriginal": [
+    "14-16"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Use this alongside the photosynthesis knowledge organiser to assess students' essential science knowledge or support revision.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/photosynthesis-check-your-learning-14-16/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/02/Photosynthesis-CYL-14-16-Thumbnail-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/02/Photosynthesis-CYL-14-16-Thumbnail.png",
+    "local": "/thumbnails/photosynthesis-check-your-learning-14-16.jpg"
+   }
+  },
+  {
+   "id": "science-in-stories-peter-pan",
+   "kind": "collection",
+   "legacyType": "lesson",
+   "title": "Science in stories: Peter Pan",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-9"
+   ],
+   "format": null,
+   "resourceCount": 2,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/lessons/science-in-stories-peter-pan/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/02/Peter-Pan-Collection-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/02/Peter-Pan-Collection.png",
+    "local": "/thumbnails/science-in-stories-peter-pan.jpg"
+   }
+  },
+  {
+   "id": "egg-cellent-spring-and-easter-science-quiz",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Egg-cellent spring and Easter science quiz",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": "PowerPoint",
+   "resourceCount": null,
+   "description": "A fun spring and Easter-themed quiz for an egg-citing end of term treat for your science class.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/egg-cellent-spring-and-easter-science-quiz/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/02/Easter-Quiz-Thumbnail-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/02/Easter-Quiz-Thumbnail.png",
+    "local": "/thumbnails/egg-cellent-spring-and-easter-science-quiz.jpg"
+   }
+  },
+  {
+   "id": "spring-science-hunt-for-4-7-and-7-11",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Spring science hunt for 4-7 and 7-11",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11"
+   ],
+   "format": null,
+   "resourceCount": 2,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/spring-science-hunt-for-4-7-and-7-11/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/02/Feb-Resource-Thumbnails-1-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/02/Feb-Resource-Thumbnails-1.png",
+    "local": "/thumbnails/spring-science-hunt-for-4-7-and-7-11.jpg"
+   }
+  },
+  {
+   "id": "ready-steady-science-easter-activities",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Ready. Steady. Science! Easter activities",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Discover how to make an unbreakable egg, investigate how to grow and shrink a bouncy egg, and take a close look at symmetry in nature with these fun, Easter-themed, low-prep practical activities.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/ready-steady-science-easter-activities/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/02/Feb-Resource-Thumbnails-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/02/Feb-Resource-Thumbnails.png",
+    "local": "/thumbnails/ready-steady-science-easter-activities.jpg"
+   }
+  },
+  {
+   "id": "daily-science-energisers-curiosity-7-11",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Daily science energisers: Curiosity (7-11)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": "PowerPoint",
+   "resourceCount": null,
+   "description": "15-minute daily science challenges to spark curiosity in your classroom and encourage your pupils to ask questions about the world around them. Perfect for energising lessons during science week.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/daily-science-energisers-curiosity-7-11/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/02/DSE2026_Primary-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/02/DSE2026_Primary.png",
+    "local": "/thumbnails/daily-science-energisers-curiosity-7-11.jpg"
+   }
+  },
+  {
+   "id": "interactive-science-games",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Interactive science games",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11",
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11",
+    "11-14",
+    "14-16"
+   ],
+   "format": null,
+   "resourceCount": 10,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/interactive-science-games/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2024/02/11969-Content-Series-Image-Interactives_998x614-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2024/02/11969-Content-Series-Image-Interactives_998x614.jpg",
+    "local": "/thumbnails/interactive-science-games.jpg"
+   }
+  },
+  {
+   "id": "women-and-girls-in-science",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Women and girls in science (primary)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": null,
+   "resourceCount": 3,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/women-and-girls-in-science/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2024/01/EF-GirlsInScience_ContentSeries-V2-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2024/01/EF-GirlsInScience_ContentSeries-V2.jpg",
+    "local": "/thumbnails/women-and-girls-in-science-primary.jpg"
+   }
+  },
+  {
+   "id": "knowledge-organisers",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Knowledge organisers",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "11-14",
+    "14-16"
+   ],
+   "format": null,
+   "resourceCount": 30,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/knowledge-organisers/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/06/KO-Website-Image-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/06/KO-Website-Image.jpg",
+    "local": "/thumbnails/knowledge-organisers.jpg"
+   }
+  },
+  {
+   "id": "posters-primary",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Primary posters",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11",
+    "9-11",
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 27,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/posters-primary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/07/EF_Primaryposterclassroom-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/07/EF_Primaryposterclassroom.jpg",
+    "local": "/thumbnails/primary-posters.jpg"
+   }
+  },
+  {
+   "id": "posters-secondary",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Posters (secondary)",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "11-14",
+    "14-16"
+   ],
+   "format": null,
+   "resourceCount": 13,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/posters-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/07/EF-secondaryposters-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/07/EF-secondaryposters.png",
+    "local": "/thumbnails/posters-secondary.jpg"
+   }
+  },
+  {
+   "id": "super-scientists",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Super scientists",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "7-11",
+    "9-11",
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 20,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/super-scientists/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Content-Series_Super-Scientists_Thumbnail-1996x1228px_3-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Content-Series_Super-Scientists_Thumbnail-1996x1228px_3.jpg",
+    "local": "/thumbnails/super-scientists.jpg"
+   }
+  },
+  {
+   "id": "science-in-stories",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Science in stories",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11",
+    "9-11"
+   ],
+   "format": null,
+   "resourceCount": 14,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/science-in-stories/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Content-Series_Science-in-stories_Thumbnail-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Content-Series_Science-in-stories_Thumbnail.jpg",
+    "local": "/thumbnails/science-in-stories.jpg"
+   }
+  },
+  {
+   "id": "ready-for-science",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Ready. Steady. Science!",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11",
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 4,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/ready-for-science/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Content-Series_Ready-for-Science_Thumbnail-1996x1228px_-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Content-Series_Ready-for-Science_Thumbnail-1996x1228px_.jpg",
+    "local": "/thumbnails/ready-steady-science.jpg"
+   }
+  },
+  {
+   "id": "food-nutrition-and-digestion",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Food, nutrition and digestion",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 25,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/food-nutrition-and-digestion/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/01/shutterstock_2487352911-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/01/shutterstock_2487352911.jpg",
+    "local": "/thumbnails/food-nutrition-and-digestion.jpg"
+   }
+  },
+  {
+   "id": "hydrocarbons-as-fuel",
+   "kind": "collection",
+   "legacyType": "collection",
+   "title": "Hydrocarbons as fuel",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "14-16"
+   ],
+   "agesOriginal": [
+    "14-16"
+   ],
+   "format": null,
+   "resourceCount": 24,
+   "description": "In this collection, your class will learn about hydrocarbons as a source of fuel, examining their molecular structure and the processes of fractional distillation and cracking. They will apply their knowledge by making and evaluating a biodiesel and exploring alternative options to fossil fuels. They’ll gain insight into careers in energy resourcing by encountering real people in their roles.",
+   "liveUrl": "https://energisingfutures.co.uk/collections/hydrocarbons-as-fuel/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/12/EF_Website-Imagery_C6-Carousel-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/12/EF_Website-Imagery_C6-Carousel.jpg",
+    "local": "/thumbnails/hydrocarbons-as-fuel.jpg"
+   }
+  },
+  {
+   "id": "electrolysis-and-generating-hydrogen",
+   "kind": "collection",
+   "legacyType": "collection",
+   "title": "Electrolysis and generating hydrogen",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "14-16"
+   ],
+   "agesOriginal": [
+    "14-16"
+   ],
+   "format": null,
+   "resourceCount": 21,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/electrolysis-and-generating-hydrogen/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/02/Electrolysis-hydrogen-image-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/02/Electrolysis-hydrogen-image.jpg",
+    "local": "/thumbnails/electrolysis-and-generating-hydrogen.jpg"
+   }
+  },
+  {
+   "id": "living-things-and-their-habitats",
+   "kind": "collection",
+   "legacyType": "collection",
+   "title": "Living things and their habitats",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11"
+   ],
+   "format": null,
+   "resourceCount": 20,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/living-things-and-their-habitats/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/09/EF_Website-Imagery_C5-Carousel-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/09/EF_Website-Imagery_C5-Carousel.jpg",
+    "local": "/thumbnails/living-things-and-their-habitats.jpg"
+   }
+  },
+  {
+   "id": "rocks-and-fossils-collections",
+   "kind": "collection",
+   "legacyType": "collection",
+   "title": "Rocks and fossils",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "7-11",
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 32,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/rocks-and-fossils-collections/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Rocks-and-fossils-image-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Rocks-and-fossils-image.jpg",
+    "local": "/thumbnails/rocks-and-fossils.jpg"
+   }
+  },
+  {
+   "id": "energy-electricity-and-the-wind",
+   "kind": "collection",
+   "legacyType": "collection",
+   "title": "Energy, electricity and the wind",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 18,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/energy-electricity-and-the-wind/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Energy-electricity-the-wind-image-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Energy-electricity-the-wind-image.jpg",
+    "local": "/thumbnails/energy-electricity-and-the-wind.jpg"
+   }
+  },
+  {
+   "id": "electricity-and-batteries",
+   "kind": "collection",
+   "legacyType": "collection",
+   "title": "Electricity and batteries",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": null,
+   "resourceCount": 36,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/electricity-and-batteries/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Electricity-batteries-EV-image-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Electricity-batteries-EV-image.jpg",
+    "local": "/thumbnails/electricity-and-batteries.jpg"
+   }
+  },
+  {
+   "id": "materials-collection",
+   "kind": "collection",
+   "legacyType": "collection",
+   "title": "Materials investigators",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "9-11"
+   ],
+   "format": null,
+   "resourceCount": 16,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/materials-collection/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2025/03/EF_Website-Imagery_C7-Carousel-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2025/03/EF_Website-Imagery_C7-Carousel.jpg",
+    "local": "/thumbnails/materials-investigators.jpg"
+   }
+  },
+  {
+   "id": "careers-linked-to-electricity-poster",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Careers linked to electricity poster",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "7-11",
+    "11-14"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Use this poster to link learning about electricity with the world of work and inspire pupils to think about a range of future careers.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/careers-linked-to-electricity-poster/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2025/09/Primary-Careers-Thumbnail-Electricity-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2025/09/Primary-Careers-Thumbnail-Electricity.png",
+    "local": "/thumbnails/careers-linked-to-electricity-poster.jpg"
+   }
+  },
+  {
+   "id": "careers-linked-to-electricity-poster-11-16",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Careers linked to electricity poster (11-16)",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "11-14",
+    "14-16"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Make meaningful links between science curriculum knowledge and skills, and potential future careers with this inspirational careers poster focusing on electricity.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/careers-linked-to-electricity-poster-11-16/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2024/06/EF_12001-EF-CC-Electricity-Secondary-POS-1996x1228px-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2024/06/EF_12001-EF-CC-Electricity-Secondary-POS-1996x1228px.png",
+    "local": "/thumbnails/careers-linked-to-electricity-poster-11-16.jpg"
+   }
+  },
+  {
+   "id": "electricity-from-the-wind",
+   "kind": "collection",
+   "legacyType": "lesson",
+   "title": "Electricity from the wind",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 2,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/lessons/electricity-from-the-wind/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/10/EF_Electricity-from-the-wind_Lesson-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/10/EF_Electricity-from-the-wind_Lesson.jpg",
+    "local": "/thumbnails/electricity-from-the-wind.jpg"
+   }
+  },
+  {
+   "id": "energy-transfers-electricity-and-the-wind",
+   "kind": "collection",
+   "legacyType": "lesson",
+   "title": "Energy transfers, electricity and the wind",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 2,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/lessons/energy-transfers-electricity-and-the-wind/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/10/EF_Energy-stores-and-transfers_Lesson-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/10/EF_Energy-stores-and-transfers_Lesson.jpg",
+    "local": "/thumbnails/energy-transfers-electricity-and-the-wind.jpg"
+   }
+  },
+  {
+   "id": "electricity-from-the-wind-presentation",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Electricity from the wind presentation",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": "PowerPoint",
+   "resourceCount": null,
+   "description": "A presentation to help students understand renewable energy sources, electricity generation from the wind, and its successes and challenges.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/electricity-from-the-wind-presentation/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/ES_Generating-electricity-from-the-wind-PPT_Thumbnail-1996x1228px-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/ES_Generating-electricity-from-the-wind-PPT_Thumbnail-1996x1228px.jpg",
+    "local": "/thumbnails/electricity-from-the-wind-presentation.jpg"
+   }
+  },
+  {
+   "id": "design-an-electric-helicopter",
+   "kind": "collection",
+   "legacyType": "lesson",
+   "title": "Design an electric helicopter",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": null,
+   "resourceCount": 13,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/lessons/design-an-electric-helicopter/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/10/EF_Design-an-electric-helicopter_Lesson-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/10/EF_Design-an-electric-helicopter_Lesson.jpg",
+    "local": "/thumbnails/design-an-electric-helicopter.jpg"
+   }
+  },
+  {
+   "id": "meet-a-wind-turbine-technician-job-card",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Meet a wind turbine technician job card",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Inspire your students to think about a future career and link learning about wind energy and electricity to the real-world, with this job-role card.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/meet-a-wind-turbine-technician-job-card/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Careers_Wind-turbine-technician_Thumbnail-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Careers_Wind-turbine-technician_Thumbnail.jpg",
+    "local": "/thumbnails/meet-a-wind-turbine-technician-job-card.jpg"
+   }
+  },
+  {
+   "id": "meet-a-stakeholder-engagement-advisor-job-card",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Meet a stakeholder engagement advisor job card",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Inspire your students to think about a future career and link learning about wind energy and electricity to the real-world, with this job-role card.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/meet-a-stakeholder-engagement-advisor-job-card/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Careers_StakeholderEngagementAdvisor_Thumbnail-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Careers_StakeholderEngagementAdvisor_Thumbnail.jpg",
+    "local": "/thumbnails/meet-a-stakeholder-engagement-advisor-job-card.jpg"
+   }
+  },
+  {
+   "id": "energy-transfers-check-learning-sheet",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Check your learning: Energy transfers",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "A seven-question assessment sheet to check how much students know about energy transfers, electricity and the wind.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/energy-transfers-check-learning-sheet/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/ES_Energy-stores-and-transfers-KO-worksheet_Thumbnail-1996x1228px-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/ES_Energy-stores-and-transfers-KO-worksheet_Thumbnail-1996x1228px.jpg",
+    "local": "/thumbnails/check-your-learning-energy-transfers.jpg"
+   }
+  },
+  {
+   "id": "energy-transfers-knowledge-organiser",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Energy transfers knowledge organiser",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "This two-page visual organiser contains essential knowledge for students learning about energy transfers, electricity and the wind.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/energy-transfers-knowledge-organiser/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/ES_Energy-stores-and-transfers-KO_Thumbnail-1996x1228px-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/ES_Energy-stores-and-transfers-KO_Thumbnail-1996x1228px.jpg",
+    "local": "/thumbnails/energy-transfers-knowledge-organiser.jpg"
+   }
+  },
+  {
+   "id": "meet-a-data-analyst-presentation",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Meet a data analyst presentation",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": "PowerPoint",
+   "resourceCount": null,
+   "description": "Use this presentation to inspire your pupils to think about a potential future career and link learning about electricity to the real-world.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/meet-a-data-analyst-presentation/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Careers_Imisi-Joseph-Job-role-card-PPT_Thumbnail-1996x1228px-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Careers_Imisi-Joseph-Job-role-card-PPT_Thumbnail-1996x1228px.jpg",
+    "local": "/thumbnails/meet-a-data-analyst-presentation.jpg"
+   }
+  },
+  {
+   "id": "meet-a-field-service-engineer-presentation",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Meet a field service engineer presentation",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": "PowerPoint",
+   "resourceCount": null,
+   "description": "Use this presentation to inspire your pupils to think about a potential future career and link learning about electricity to the real-world.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/meet-a-field-service-engineer-presentation/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Careers_James-Kennedy-Job-role-card-PPT_Thumbnail-1996x1228px-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Careers_James-Kennedy-Job-role-card-PPT_Thumbnail-1996x1228px.jpg",
+    "local": "/thumbnails/meet-a-field-service-engineer-presentation.jpg"
+   }
+  },
+  {
+   "id": "meet-a-data-analyst-job-card",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Meet a data analyst job role card (primary)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Inspire your pupils to think about a future career and link learning about electricity and data to the real-world, with this job-role card.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/meet-a-data-analyst-job-card/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Careers_Imisi-Joseph-Job-role-card_Thumbnail-1996x1228px-1-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Careers_Imisi-Joseph-Job-role-card_Thumbnail-1996x1228px-1.jpg",
+    "local": "/thumbnails/meet-a-data-analyst-job-role-card-primary.jpg"
+   }
+  },
+  {
+   "id": "meet-a-field-service-engineer-job-card",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Meet a field service engineer job card",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Inspire your pupils to think about a potential future career and link learning about electricity to the real-world, with this job-role card.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/meet-a-field-service-engineer-job-card/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Careers_James-Kennedy-Job-role-card_Thumbnail-1996x1228px-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/Careers_James-Kennedy-Job-role-card_Thumbnail-1996x1228px.jpg",
+    "local": "/thumbnails/meet-a-field-service-engineer-job-card.jpg"
+   }
+  },
+  {
+   "id": "nikola-teslas-life-story",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Nikola Tesla’s life story",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Simple information sheet describing the life, career and achievements of inventor, engineer, electricity genius and super scientist, Nikola Tesla.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/nikola-teslas-life-story/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/ES_The-story-of-Nikola-Tesla_Thumbnnail-1996x1228px-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/ES_The-story-of-Nikola-Tesla_Thumbnnail-1996x1228px.jpg",
+    "local": "/thumbnails/nikola-teslas-life-story.jpg"
+   }
+  },
+  {
+   "id": "nikola-tesla-presentation",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Nikola Tesla presentation",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": "PowerPoint",
+   "resourceCount": null,
+   "description": "Use this presentation to find out about the life, career and achievements in the field of electricity, of super scientist, Nikola Tesla.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/nikola-tesla-presentation/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/ES_Super-Scientist-Nikola-Tesla-PPT_Thumbnnail-1996x1228px-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/ES_Super-Scientist-Nikola-Tesla-PPT_Thumbnnail-1996x1228px.jpg",
+    "local": "/thumbnails/nikola-tesla-presentation.jpg"
+   }
+  },
+  {
+   "id": "circuits-and-symbols-activity-sheet-2",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Circuits and symbols activity sheet 2",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "7-11"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Use this activity sheet to complete sentences about electricity and circuits and identify simple components, and working circuits.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/circuits-and-symbols-activity-sheet-2/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/ES_Circuits-and-symbols-activity-sheet-2_Thumbnnail-1996x1228px-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2023/05/ES_Circuits-and-symbols-activity-sheet-2_Thumbnnail-1996x1228px.jpg",
+    "local": "/thumbnails/circuits-and-symbols-activity-sheet-2.jpg"
+   }
+  },
+  {
+   "id": "gcse-combined-science-knowledge-organiser-waves",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "GCSE combined science knowledge organiser: waves",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "14-16"
+   ],
+   "agesOriginal": [
+    "14-16"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Use this knowledge organiser to revise the topic of waves including, the properties of a wave, how to measure the speed of a sound wave, electromagnetic waves and more.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/gcse-combined-science-knowledge-organiser-waves/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2024/09/EF_ES_Waves-Combined-Science_KO-1996x1228px-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2024/09/EF_ES_Waves-Combined-Science_KO-1996x1228px.jpg",
+    "local": "/thumbnails/gcse-combined-science-knowledge-organiser-waves.jpg"
+   }
+  },
+  {
+   "id": "gcsephysicskowaves",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "GCSE Physics knowledge organiser: Waves",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "14-16"
+   ],
+   "agesOriginal": [
+    "14-16"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Use this knowledge organiser to revise the topic of waves including, the properties of a wave, how to measute the speed of a sound wave, electromagnetic waves and more.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/gcsephysicskowaves/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2024/09/EF_ES_Waves-GCSE-Triple-ScienceKO-1996x1228px-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2024/09/EF_ES_Waves-GCSE-Triple-ScienceKO-1996x1228px.jpg",
+    "local": "/thumbnails/gcse-physics-knowledge-organiser-waves.jpg"
+   }
+  },
+  {
+   "id": "parent-resources",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Parent resources",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11",
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11",
+    "11-14",
+    "14-16"
+   ],
+   "format": null,
+   "resourceCount": 5,
+   "description": "You don't need to be a science expert to help your child explore the world around them. From conversations at the dinner table to questions on the school run, everyday moments can spark curiosity and build confidence. These resources are designed to help you start simple STEM conversations, discover together, and support your child in seeing what science could mean for their future.",
+   "liveUrl": "https://energisingfutures.co.uk/collections/parent-resources/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/shutterstock_2664917909-297x183.jpg",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/shutterstock_2664917909.jpg",
+    "local": null
+   }
+  },
+  {
+   "id": "halloween-resources",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Halloween resources",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11",
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 7,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/halloween-resources/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2025/10/12253-BP-THUMBNAIL-HSO-v16_Secondary-Combined-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2025/10/12253-BP-THUMBNAIL-HSO-v16_Secondary-Combined.png",
+    "local": null
+   }
+  },
+  {
+   "id": "the-secret-science-of-bonfire-night",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "The secret science of Bonfire Night",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11",
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "9-11",
+    "11-14",
+    "14-16",
+    "7-9"
+   ],
+   "format": null,
+   "resourceCount": 2,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/the-secret-science-of-bonfire-night/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/Bonfire-Night-Combo-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/Bonfire-Night-Combo.png",
+    "local": null
+   }
+  },
+  {
+   "id": "aaf-delivery-guide-primary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Asteroid Action Force delivery guide (primary)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "9-11"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "A short guide with curriculum links, and step-by-step instructions for how to deliver the challenge in a 1-hour lesson. Includes background science about asteroids and space.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/aaf-delivery-guide-primary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Delivery-Guide-PRI-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Delivery-Guide-PRI.png",
+    "local": null
+   }
+  },
+  {
+   "id": "aaf-poster",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Asteroid Action Force poster",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "9-11",
+    "11-14"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Inspire budding young scientists with exciting STEM careers in planetary science and defence.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/aaf-poster/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Poster-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Poster.png",
+    "local": null
+   }
+  },
+  {
+   "id": "aaf-entry-form-primary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Asteroid Action Force entry form (primary)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "9-11"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Competition entry form for pupils to draw and describe their innovative asteroid deflection solution and enter the competition, plus a cover sheet for you to fill in on behalf of your class.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/aaf-entry-form-primary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Entry-Form-PRI-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Entry-Form-PRI.png",
+    "local": null
+   }
+  },
+  {
+   "id": "aaf-free-post-label",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Asteroid Action Force free post label",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "9-11",
+    "11-14"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Use this freepost label to send in your learners' competition entries without paying postage.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/aaf-free-post-label/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Freepost-Label-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Freepost-Label.png",
+    "local": null
+   }
+  },
+  {
+   "id": "aaf-challenge-presentation-primary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Asteroid Action Force challenge presentation (primary)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "9-11"
+   ],
+   "format": "PowerPoint",
+   "resourceCount": null,
+   "description": "Use this interactive presentation, with video clips presented by Dr Gab Astorga, to guide pupils through the four missions that make up the challenge.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/aaf-challenge-presentation-primary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Lesson-PPT-PRI-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Lesson-PPT-PRI.png",
+    "local": null
+   }
+  },
+  {
+   "id": "aaf-activity-sheet-primary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Asteroid Action Force activity sheet (primary)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "9-11"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Pupils use this activity sheet to record results and draw conclusions as they investigate how forces can move and stop objects like asteroids.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/aaf-activity-sheet-primary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Activity-Sheet-PRI-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Activity-Sheet-PRI.png",
+    "local": null
+   }
+  },
+  {
+   "id": "aaf-home-mission",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Asteroid Action Force home mission",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "9-11",
+    "11-14"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Students use this take-home mission sheet to extend their learning about asteroids and science careers at home.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/aaf-home-mission/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Home-Mission-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Home-Mission.png",
+    "local": null
+   }
+  },
+  {
+   "id": "ready-steady-science-winter-primary",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Ready. Steady. Science! Winter (primary)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11"
+   ],
+   "format": null,
+   "resourceCount": 3,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/ready-steady-science-winter-primary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/RSS-Winter-Pri-Collection-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/RSS-Winter-Pri-Collection.png",
+    "local": null
+   }
+  },
+  {
+   "id": "resources-celebrating-black-scientists",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Resources celebrating Black scientists",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "7-11",
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "7-11",
+    "9-11",
+    "11-14",
+    "14-16"
+   ],
+   "format": null,
+   "resourceCount": 25,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/resources-celebrating-black-scientists/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/BHM-Combo-Thumbnail-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/BHM-Combo-Thumbnail.png",
+    "local": null
+   }
+  },
+  {
+   "id": "parent-take-home-winter-sheet",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Parent take-home – winter sheet",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Help families build on the science you’ve just taught in the classroom with this handy one-pager. Either download this resource, print and send home with your pupils, or click share to send the link directly to parents. This resource helps families spot signs of the season, explore how animals stay warm and discover the science behind condensation with easy-to-do activities and discussion prompts.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/parent-take-home-winter-sheet/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/Parent-sheet-winter-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/Parent-sheet-winter.png",
+    "local": null
+   }
+  },
+  {
+   "id": "parent-take-home-weather-sheet",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Parent take-home – weather sheet",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Help families build on the science you’ve just taught in the classroom with this handy one-pager. Either download this resource, print and send home with your pupils, or click share to send the link directly to parents.\n\nFrom weather forecasting to design challenges, this resource encourages observation, questioning and scientific thinking at home.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/parent-take-home-weather-sheet/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/Parent-sheet-autumn-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/Parent-sheet-autumn.png",
+    "local": null
+   }
+  },
+  {
+   "id": "parent-take-home-space-sheet",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Parent take-home – space sheet",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Help families build on the science you’ve just taught in the classroom with this handy one-pager. Either download this resource, print and send home with your pupils, or click share to send the link directly to parents.\n\nFrom building rockets to discovering space facts, this resource helps develop curiosity and science confidence at home.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/parent-take-home-space-sheet/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/Parent-sheet-space-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/Parent-sheet-space.png",
+    "local": null
+   }
+  },
+  {
+   "id": "world-space-week-resources",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "World Space Week resources",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "7-11",
+    "9-11",
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 17,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/world-space-week-resources/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/WSW-Combo-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/WSW-Combo.png",
+    "local": null
+   }
+  },
+  {
+   "id": "world-space-week-resources-secondary",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "World Space Week resources (secondary)",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "7-11",
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 8,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/world-space-week-resources-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/WSW-Sec-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/WSW-Sec.png",
+    "local": null
+   }
+  },
+  {
+   "id": "world-space-week-resources-primary",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "World Space Week resources (primary)",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "7-11",
+    "9-11",
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 10,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/world-space-week-resources-primary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/WSW-Pri-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/WSW-Pri.png",
+    "local": null
+   }
+  },
+  {
+   "id": "autumn-science-primary",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Autumn science (primary)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11"
+   ],
+   "format": null,
+   "resourceCount": 9,
+   "description": "From changing weather and shorter days to falling leaves and seasonal stories, real-life autumn experiences can spark curiosity and make science more meaningful. \n\nExplore our collection of curriculum-linked resources designed to help you bring autumn into the classroom while developing observation, investigation and discussion skills.",
+   "liveUrl": "https://energisingfutures.co.uk/collections/autumn-science-primary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/Autumn-science-primary-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/Autumn-science-primary.png",
+    "local": null
+   }
+  },
+  {
+   "id": "fashion-fixers-challenge",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Fashion fixers challenge",
+   "level": [
+    "Primary",
+    "Secondary"
+   ],
+   "ages": [
+    "7-11",
+    "11-14"
+   ],
+   "agesOriginal": [
+    "9-11",
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 11,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/fashion-fixers-challenge/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/Fashion-fixers-Combined-Thumbnail-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/Fashion-fixers-Combined-Thumbnail.png",
+    "local": null
+   }
+  },
+  {
+   "id": "all-about-me-presentation-primary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "All about me presentation (primary)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11"
+   ],
+   "format": "PowerPoint",
+   "resourceCount": null,
+   "description": "Boost engagement and real-world relevance by linking the science curriculum to your pupils' world. Use the presentation to share your interests and experiences, modelling this process to pupils. Later, use it to gather whole-class feedback and spark career inspiration with a 'Would you rather..?' game.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/all-about-me-presentation-primary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/Aam-Primary-PPT-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/Aam-Primary-PPT.png",
+    "local": null
+   }
+  },
+  {
+   "id": "all-about-me-activity-sheet-primary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "All about me activity sheet (primary)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "4-7",
+    "7-11"
+   ],
+   "agesOriginal": [
+    "4-7",
+    "7-11"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Boost engagement and real-world relevance by linking the science curriculum to your students' world. Use the worksheet to learn more about your students' backgrounds and ambitions, supporting future lesson planning by linking lessons to what matters to them.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/all-about-me-activity-sheet-primary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/Aam-Primary-Sheets-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/Aam-Primary-Sheets.png",
+    "local": null
+   }
+  },
+  {
+   "id": "our-roborevolution-activity-sheet-primary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Our RoboRevolution activity sheet (primary)",
+   "level": [
+    "Primary"
+   ],
+   "ages": [
+    "7-11"
+   ],
+   "agesOriginal": [
+    "9-11"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Pupils use this activity sheet to describe their innovative robot.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/our-roborevolution-activity-sheet-primary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/RoboRev-RWC-Activity-Sheet-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/RoboRev-RWC-Activity-Sheet.png",
+    "local": null
+   }
+  },
+  {
+   "id": "aaf-delivery-guide-secondary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Asteroid Action Force delivery guide (secondary)",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "A short guide with curriculum links, and step-by-step instructions for how to deliver the challenge in a 1-hour lesson. Includes background science about asteroids and space.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/aaf-delivery-guide-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Delivery-Guide-SEC-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Delivery-Guide-SEC.png",
+    "local": null
+   }
+  },
+  {
+   "id": "aaf-entry-form-secondary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Asteroid Action Force entry form (secondary)",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Competition entry form for students to draw and describe their innovative asteroid deflection solution and enter the competition, plus a cover sheet for you to fill in on behalf of your class.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/aaf-entry-form-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Entry-Form-SEC-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Entry-Form-SEC.png",
+    "local": null
+   }
+  },
+  {
+   "id": "aaf-challenge-presentation-secondary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Asteroid Action Force challenge presentation (secondary)",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": "PowerPoint",
+   "resourceCount": null,
+   "description": "Use this interactive presentation, with video clips presented by Dr Gab Astorga, to guide students through the four missions that make up the challenge.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/aaf-challenge-presentation-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Lesson-PPT-SEC-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Lesson-PPT-SEC.png",
+    "local": null
+   }
+  },
+  {
+   "id": "aaf-activity-sheet-secondary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Asteroid Action Force activity sheet (secondary)",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Students use this activity sheet to record results and draw conclusions as they investigate how forces can move and stop objects like asteroids.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/aaf-activity-sheet-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Activity-Sheet-SEC-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/10/AAF-Activity-Sheet-SEC.png",
+    "local": null
+   }
+  },
+  {
+   "id": "ready-steady-science-winter-secondary",
+   "kind": "collection",
+   "legacyType": "content series",
+   "title": "Ready. Steady. Science! Winter (secondary)",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": null,
+   "resourceCount": 2,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/collections/ready-steady-science-winter-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/RSS-Winter-Sec-Collection-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/09/RSS-Winter-Sec-Collection.png",
+    "local": null
+   }
+  },
+  {
+   "id": "all-about-me-activity-sheet-secondary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "All about me activity sheet (secondary)",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "11-14",
+    "14-16"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Boost engagement and real-world relevance by linking the science curriculum to your students' world. Use the worksheet to learn more about your students' backgrounds and ambitions. This will support future lesson planning by linking lessons to what matters to them.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/all-about-me-activity-sheet-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/Aam-Secondary-Sheets-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/Aam-Secondary-Sheets.png",
+    "local": null
+   }
+  },
+  {
+   "id": "all-about-me-presentation-secondary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "All about me presentation (secondary)",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "11-14",
+    "14-16"
+   ],
+   "format": "PowerPoint",
+   "resourceCount": null,
+   "description": "Boost engagement and real-world relevance by linking the science curriculum to your students' world. Use the presentation to share your interests and experiences, modelling this process to students. Later, use it to gather whole-class feedback and spark career inspiration with a 'Would you rather..?' game.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/all-about-me-presentation-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/Aam-Secondary-PPT-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/Aam-Secondary-PPT.png",
+    "local": null
+   }
+  },
+  {
+   "id": "our-roborevolution-activity-sheet-secondary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Our RoboRevolution activity sheet (secondary)",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "Students use this activity sheet to describe their innovative robot.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/our-roborevolution-activity-sheet-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/RoboRev-RWC-Activity-Sheet-Sec-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/08/RoboRev-RWC-Activity-Sheet-Sec.png",
+    "local": null
+   }
+  },
+  {
+   "id": "calendar-of-events-autumn-2026-secondary",
+   "kind": "resource",
+   "legacyType": "resource",
+   "title": "Calendar of events: Autumn 2026 (secondary)",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14"
+   ],
+   "agesOriginal": [
+    "11-14"
+   ],
+   "format": "PDF",
+   "resourceCount": null,
+   "description": "This poster shows key events from September to December and some of the related Energising Futures resources - perfect for displaying in your staffroom.",
+   "liveUrl": "https://energisingfutures.co.uk/resources/calendar-of-events-autumn-2026-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/06/Sec-Events-Calendar-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/06/Sec-Events-Calendar.png",
+    "local": null
+   }
+  },
+  {
+   "id": "football-posters-secondary",
+   "kind": "collection",
+   "legacyType": "lesson",
+   "title": "Football posters (secondary)",
+   "level": [
+    "Secondary"
+   ],
+   "ages": [
+    "11-14",
+    "14-16"
+   ],
+   "agesOriginal": [
+    "11-14",
+    "14-16"
+   ],
+   "format": null,
+   "resourceCount": 2,
+   "description": "",
+   "liveUrl": "https://energisingfutures.co.uk/lessons/football-posters-secondary/",
+   "image": {
+    "remote": "https://energisingfutures.co.uk/wp-content/uploads/2026/05/Combo-Football-landing-page-297x183.png",
+    "remoteLarge": "https://energisingfutures.co.uk/wp-content/uploads/2026/05/Combo-Football-landing-page.png",
+    "local": null
+   }
+  }
+ ]
+}
