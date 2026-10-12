@@ -18,6 +18,8 @@ npm run preview    # serve the static build
 
 Useful URLs:
 
+- `/`, `/home-b`, `/home-c`: the three homepage options (A current, B image-led, C personalisation-first). Switch between them in the yellow Prototype bar at the top of every page.
+
 - `/`: homepage
 - `/?as=sam`: homepage previewed as a signed-in teacher (`?as=guest` turns it off). There's also a toggle in the yellow Prototype bar at the top of every page. The choice is kept in `localStorage`.
 - `/search?q=electricity`: results. All state is in the URL: `q`, `age`, `format`, `tab`, `kind`, `sort`.
@@ -40,6 +42,10 @@ Import the repo in Vercel. The Nuxt preset is detected, and [`vercel.json`](verc
 | Loading and enriching items (topics, careers kind, dates, badges) | [`utils/catalogue.ts`](utils/catalogue.ts) |
 | Search engine (normalise, stem, match, fallbacks, facets, type-ahead) | [`utils/search.ts`](utils/search.ts) |
 | Reactive wrapper used by the UI (swap point for a server or Algolia later) | [`composables/useSearch.ts`](composables/useSearch.ts) |
+| Personalisation data for options B and C: nations, stage labels, curriculum areas, regions and local context | [`data/personalisation.json`](data/personalisation.json) |
+| Personalisation logic (postcode → region, curriculum tags, local lines, recommendations) | [`utils/personalise.ts`](utils/personalise.ts) |
+| Teacher's nation, classes and area (`localStorage`) | [`composables/usePersonalisation.ts`](composables/usePersonalisation.ts) |
+| Placeholder photography for options B and C, with credits and licences | [`public/photos/`](public/photos/), [`credits.json`](public/photos/credits.json) |
 | Signed-in preview and saved items (`localStorage`) | [`composables/usePreviewState.ts`](composables/usePreviewState.ts) |
 | Design tokens | [`tailwind.config.ts`](tailwind.config.ts). The body font is one entry in `fontFamily.body`, so swapping Figtree for Proxima Nova is a one-line change, plus the Google Fonts entry in `nuxt.config.ts`. |
 | Acceptance tests | [`tests/search.test.ts`](tests/search.test.ts) |

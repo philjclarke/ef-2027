@@ -35,7 +35,7 @@ export default defineNuxtConfig({
     '/search': { ssr: false },
   },
   nitro: {
-    prerender: { routes: ['/', '/search'], crawlLinks: false },
+    prerender: { routes: ['/', '/home-b', '/home-c', '/search'], crawlLinks: false },
   },
 
   typescript: { strict: true },

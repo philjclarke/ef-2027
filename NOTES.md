@@ -65,3 +65,50 @@
 3. **Proxima Nova.** Is there an Adobe Fonts licence we can use on the new build, or should we stay with a stand-in such as Figtree?
 4. **"Collections" naming.** Lessons and Content series fold into "Collections". Is that the right word for teachers, or would "Topics", "Units" or "Packs" be clearer?
 5. **Interactives.** Are there more than the 9 in the live collection, and should "Interactive" be a format everywhere (for example, launch in browser rather than download)?
+
+---
+
+# Homepage options B and C (added 12 October 2026)
+
+Option A (`/`) is unchanged. Both new options use a sticky header with a fat (mega) menu, the dialled-up `pop` palette in `tailwind.config.ts`, and no doodle illustrations. The search pages keep the original header, as agreed.
+
+## B: image-led (`/home-b`)
+- Full-bleed photo hero with the search field and a "Meet Imisi" card.
+- A "Make it yours" bar: nation, classes and school postcode. Once set, it collapses to a summary, and a "Picked for your classes" row appears.
+- Photo tiles per age band, labelled in the teacher's nation's terms (for example, Scotland shows P4–P7).
+- A seasonal bento block (Halloween, Black History Month, Bonfire Night, Asteroid Action Force), topic photo tiles, an image-led careers band, interactives, and collections.
+
+## C: personalisation-first (`/home-c`)
+- The hero is a setup card. On submit it plays a short scripted "Tailoring…" sequence, then the page rebuilds around the teacher's choices:
+  - "Mapped to what you teach": tabs per class, with a curriculum tag on each card.
+  - "STEM on your doorstep": the region's photo, facts, nearby careers, and resources with a local line.
+  - "One resource, made local": the same slide shown original and localised, for any of the nine regions.
+- Signed in as Sam, it defaults to England, Years 3–6 and 7–9, and the Humber.
+- Demo shortcuts under the postcode field: Hull, Glasgow, Belfast, Cardiff.
+
+## The mega menu
+- Panels: Primary, Secondary, Collections, Interactives, Careers.
+- Primary and Secondary show age links (in the teacher's nation's terms), the six most-populated topics, and three suggested resources. These become "Suggested for Years 3–6" and so on once personalised.
+- Hover opens a panel after a short delay; click toggles it; Esc closes it and returns focus to its button. Below 1024px it becomes an accordion.
+
+## Decisions and guesses
+- **The "AI localisation" is scripted.** There are no model calls. Local lines come from `data/personalisation.json → regions`. The copy says localised versions are "checked by our education team". That's our assumption about the process; please confirm with the client before it's presented as a promise.
+- **Curriculum labels are illustrative.** We use stage names plus a curriculum area (for example, "First and Second level Sciences · Forces, electricity and waves"), not statutory codes. They need checking by the client's education team.
+- **Regions.** We cover nine regions, chosen by postcode area. The facts are public and general, and no employers are named. Postcodes outside these areas get a "no local examples yet" message.
+- **Photos are placeholders.** They come from Unsplash and Pexels (free licences) and Wikimedia Commons (CC BY / CC BY-SA, which need attribution if used beyond the prototype). Full credits are in `public/photos/credits.json`. Gaps:
+  - Careers shows a construction site, not a wind farm.
+  - Humber shows the Humber Bridge, not offshore wind.
+  - Electricity shows a light bulb, not a circuit.
+- **Thumbnails.** The 33 catalogue items that hotlinked thumbnails from the live site now have local copies, saved under the scraper's naming convention. This fixed a third-party-cookie warning in Lighthouse.
+
+## Status
+- Lighthouse accessibility and best practices: 100 on `/`, `/home-b`, `/home-c` and `/search?q=electricity`.
+- Layout shift is 0.
+- No horizontal scroll at 375, 1024 or 1440.
+- 37 tests pass, including the new personalisation tests in `tests/personalise.test.ts`.
+
+## Questions for the client
+1. Which nations matter most? Should Welsh-language versions be in scope?
+2. How will AI-localised resources be reviewed before teachers see them, and how should we describe that?
+3. Should the teacher be able to save personalisation without an account (as now), or only when signed in?
+4. Do they have real photography, especially of UK classrooms and role models at work?

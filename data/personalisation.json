@@ -1,0 +1,273 @@
+{
+  "_note": "Prototype data for homepage options B and C. Curriculum labels are illustrative (stage names and curriculum areas, not statutory codes) and need checking with the client's education team. Regional facts are public and general; no employers are named.",
+
+  "nations": {
+    "england": {
+      "name": "England",
+      "curriculum": "National Curriculum",
+      "bands": {
+        "4-7": { "label": "Reception–Year 2", "stage": "EYFS and KS1" },
+        "7-11": { "label": "Years 3–6", "stage": "KS2" },
+        "11-14": { "label": "Years 7–9", "stage": "KS3" },
+        "14-16": { "label": "Years 10–11", "stage": "GCSE" }
+      }
+    },
+    "scotland": {
+      "name": "Scotland",
+      "curriculum": "Curriculum for Excellence",
+      "bands": {
+        "4-7": { "label": "P1–P3", "stage": "Early and First level" },
+        "7-11": { "label": "P4–P7", "stage": "First and Second level" },
+        "11-14": { "label": "S1–S3", "stage": "Third level" },
+        "14-16": { "label": "S4–S5", "stage": "National 4 and 5" }
+      }
+    },
+    "wales": {
+      "name": "Wales",
+      "curriculum": "Curriculum for Wales",
+      "bands": {
+        "4-7": { "label": "Reception–Year 2", "stage": "Progression step 1–2" },
+        "7-11": { "label": "Years 3–6", "stage": "Progression step 2–3" },
+        "11-14": { "label": "Years 7–9", "stage": "Progression step 4" },
+        "14-16": { "label": "Years 10–11", "stage": "GCSE" }
+      }
+    },
+    "ni": {
+      "name": "Northern Ireland",
+      "curriculum": "Northern Ireland Curriculum",
+      "bands": {
+        "4-7": { "label": "P1–P3", "stage": "Foundation Stage and KS1" },
+        "7-11": { "label": "P4–P7", "stage": "KS1 and KS2" },
+        "11-14": { "label": "Years 8–10", "stage": "KS3" },
+        "14-16": { "label": "Years 11–12", "stage": "GCSE" }
+      }
+    }
+  },
+
+  "_curriculumAreasNote": "Where a topic sits in each nation's curriculum. Primary/secondary subject names per nation are in subjects.",
+  "subjects": {
+    "england": { "primary": "Science", "secondary": "Science" },
+    "scotland": { "primary": "Sciences", "secondary": "Sciences" },
+    "wales": { "primary": "Science and Technology", "secondary": "Science and Technology" },
+    "ni": { "primary": "The World Around Us", "secondary": "Science and Technology" }
+  },
+  "curriculumAreas": {
+    "Electricity": { "england": "Electricity", "scotland": "Forces, electricity and waves", "wales": "Forces and energy", "ni": "Movement and energy" },
+    "Circuits": { "england": "Electricity", "scotland": "Forces, electricity and waves", "wales": "Forces and energy", "ni": "Movement and energy" },
+    "Energy transfers": { "england": "Energy", "scotland": "Planet Earth: energy sources", "wales": "Forces and energy", "ni": "Movement and energy" },
+    "Wind energy": { "england": "Energy", "scotland": "Planet Earth: energy sources", "wales": "Forces and energy", "ni": "Movement and energy" },
+    "Space": { "england": "Earth and space", "scotland": "Planet Earth: space", "wales": "The world around us", "ni": "Place" },
+    "Materials": { "england": "Properties and changes of materials", "scotland": "Materials", "wales": "Matter and the way it behaves", "ni": "Change over time" },
+    "Human body": { "england": "Animals, including humans", "scotland": "Biological systems", "wales": "Living things", "ni": "Interdependence" },
+    "Food and nutrition": { "england": "Animals, including humans", "scotland": "Biological systems", "wales": "Living things", "ni": "Interdependence" },
+    "Living things and habitats": { "england": "Living things and their habitats", "scotland": "Planet Earth: biodiversity", "wales": "Living things", "ni": "Interdependence" },
+    "Plants and photosynthesis": { "england": "Plants", "scotland": "Planet Earth: processes of the planet", "wales": "Living things", "ni": "Interdependence" },
+    "Rocks and fossils": { "england": "Rocks", "scotland": "Planet Earth", "wales": "The world around us", "ni": "Place" },
+    "Waves": { "england": "Waves", "scotland": "Forces, electricity and waves", "wales": "Forces and energy", "ni": "Movement and energy" },
+    "Chemical reactions": { "england": "Chemical reactions", "scotland": "Materials: chemical changes", "wales": "Matter and the way it behaves", "ni": "Change over time" },
+    "Weather and seasons": { "england": "Seasonal changes", "scotland": "Planet Earth", "wales": "The world around us", "ni": "Place" },
+    "Robotics": { "england": "Working scientifically", "scotland": "Topical science", "wales": "Computation", "ni": "Movement and energy" },
+    "Scientists": { "england": "Working scientifically", "scotland": "Topical science", "wales": "Being curious and searching for answers", "ni": "Change over time" }
+  },
+
+  "regions": [
+    {
+      "id": "humber",
+      "name": "the Humber",
+      "place": "Hull and the Humber",
+      "nation": "england",
+      "postcodes": ["HU", "DN"],
+      "image": "/photos/region-humber.jpg",
+      "facts": [
+        "Hornsea, off the Yorkshire coast, is one of the largest offshore wind farms in the world.",
+        "Wind turbine blades for the North Sea are made in Hull.",
+        "The Humber’s ports and refineries are developing hydrogen and carbon capture projects."
+      ],
+      "topics": {
+        "Wind energy": "Uses Hornsea offshore wind farm as the worked example, with blade-making in Hull.",
+        "Electricity": "Follows electricity from Hornsea’s turbines to homes across Yorkshire.",
+        "Energy transfers": "Traces energy from North Sea wind to the National Grid via the Humber.",
+        "Chemical reactions": "Links hydrogen production to low-carbon projects on the Humber."
+      },
+      "default": "Swaps in examples from the Humber’s ports, energy and engineering industries.",
+      "careers": ["Wind turbine technician", "Port engineer", "Blade manufacturing technician"],
+      "demoLine": "Hornsea, off the Yorkshire coast, is one of the world’s largest offshore wind farms. Its blades are made just up the river in Hull."
+    },
+    {
+      "id": "aberdeen",
+      "name": "Aberdeen",
+      "place": "Aberdeen and the North East",
+      "nation": "scotland",
+      "postcodes": ["AB"],
+      "image": "/photos/region-aberdeen.jpg",
+      "facts": [
+        "Aberdeen is known as the UK’s energy capital after decades of North Sea oil and gas.",
+        "Its energy industry is moving towards offshore wind, hydrogen and carbon capture.",
+        "Much of the city is built from local granite, giving it the name the Granite City."
+      ],
+      "topics": {
+        "Wind energy": "Uses offshore wind farms off the Aberdeenshire coast as the worked example.",
+        "Electricity": "Follows electricity from North Sea wind farms to homes in the North East.",
+        "Energy transfers": "Compares North Sea oil and gas with the region’s new wind and hydrogen energy.",
+        "Chemical reactions": "Connects fuels and hydrogen to the North Sea energy industry.",
+        "Rocks and fossils": "Uses Aberdeen’s granite buildings to explore igneous rock."
+      },
+      "default": "Swaps in examples from Aberdeen’s energy industry and the North Sea.",
+      "careers": ["Offshore wind engineer", "Subsea engineer", "Energy data analyst"],
+      "demoLine": "Aberdeen has powered the UK for decades from the North Sea. Today, wind farms off the Aberdeenshire coast are part of that story."
+    },
+    {
+      "id": "glasgow",
+      "name": "Glasgow",
+      "place": "Glasgow and the Clyde",
+      "nation": "scotland",
+      "postcodes": ["G", "PA", "ML", "KA"],
+      "image": "/photos/region-glasgow.jpg",
+      "facts": [
+        "Glasgow builds more small satellites than any other city in Europe.",
+        "The River Clyde has a long history of shipbuilding and engineering.",
+        "Fossil Grove in Victoria Park preserves tree stumps over 300 million years old."
+      ],
+      "topics": {
+        "Space": "Uses satellites built in Glasgow as the real-world example.",
+        "Rocks and fossils": "Adds an activity on Fossil Grove in Victoria Park.",
+        "Materials": "Links materials to ship and satellite engineering on the Clyde.",
+        "Electricity": "Explores how satellites built in Glasgow are powered by solar panels."
+      },
+      "default": "Swaps in examples from Glasgow’s space and engineering industries.",
+      "careers": ["Satellite engineer", "Marine engineer", "Space systems technician"],
+      "demoLine": "Satellites built in Glasgow run on solar panels, turning light into electrical energy. The city builds more small satellites than anywhere else in Europe."
+    },
+    {
+      "id": "belfast",
+      "name": "Belfast",
+      "place": "Belfast and Antrim",
+      "nation": "ni",
+      "postcodes": ["BT"],
+      "image": "/photos/region-belfast.jpg",
+      "facts": [
+        "The Giant’s Causeway on the Antrim coast is made of around 40,000 basalt columns.",
+        "Belfast’s shipyard built the Titanic. Its yellow cranes, Samson and Goliath, still dominate the skyline.",
+        "Northern Ireland has a growing aerospace and cyber security industry."
+      ],
+      "topics": {
+        "Rocks and fossils": "Uses the Giant’s Causeway’s basalt columns to explore igneous rock.",
+        "Materials": "Links materials to the ships and aircraft parts made in Belfast.",
+        "Wind energy": "Uses wind farms on the Antrim hills and coast as the worked example.",
+        "Electricity": "Follows electricity from Northern Ireland’s wind farms to Belfast homes."
+      },
+      "default": "Swaps in examples from Belfast’s engineering, aerospace and coastline.",
+      "careers": ["Aerospace engineer", "Cyber security analyst", "Geologist"],
+      "demoLine": "Wind farms on the Antrim hills and coast now supply a large share of Northern Ireland’s electricity."
+    },
+    {
+      "id": "south-wales",
+      "name": "South Wales",
+      "place": "Cardiff and South Wales",
+      "nation": "wales",
+      "postcodes": ["CF", "NP", "SA"],
+      "image": "/photos/region-cardiff.jpg",
+      "facts": [
+        "South Wales has one of the world’s first compound semiconductor clusters, making chips for phones and electric cars.",
+        "The South Wales coalfield shaped the country’s industry for over a century.",
+        "The Cardiff Bay barrage turned a tidal bay into a freshwater lake."
+      ],
+      "topics": {
+        "Electricity": "Links circuits to the computer chips made in South Wales.",
+        "Circuits": "Links circuits to the computer chips made in South Wales.",
+        "Rocks and fossils": "Uses the South Wales coalfield to explore how rocks and fuels form.",
+        "Energy transfers": "Compares coal, the region’s past, with tidal and wind energy, its future."
+      },
+      "default": "Swaps in examples from South Wales’ semiconductor, energy and coastal industries.",
+      "careers": ["Semiconductor engineer", "Renewable energy engineer", "Environmental scientist"],
+      "demoLine": "South Wales once powered the world with coal. Now it’s investing in wind and tidal energy along its coast."
+    },
+    {
+      "id": "manchester",
+      "name": "Manchester",
+      "place": "Greater Manchester",
+      "nation": "england",
+      "postcodes": ["M", "OL", "SK", "BL", "WN"],
+      "image": "/photos/region-manchester.jpg",
+      "facts": [
+        "Graphene, the world’s thinnest material, was first isolated at the University of Manchester in 2004.",
+        "Manchester grew into one of the world’s first industrial cities, powered by cotton mills.",
+        "The world’s first stored-program computer ran in Manchester in 1948."
+      ],
+      "topics": {
+        "Materials": "Uses graphene, first isolated in Manchester, as the super-material example.",
+        "Electricity": "Links electricity to Manchester’s computing history, from 1948 to today.",
+        "Scientists": "Adds Manchester scientists, from John Dalton to the graphene team."
+      },
+      "default": "Swaps in examples from Manchester’s science, computing and industrial history.",
+      "careers": ["Materials scientist", "Software engineer", "Textile technologist"],
+      "demoLine": "Manchester’s mills once ran on steam. Today, researchers there are exploring how graphene could make lighter, stronger materials and better batteries."
+    },
+    {
+      "id": "west-midlands",
+      "name": "the West Midlands",
+      "place": "Birmingham, Coventry and the West Midlands",
+      "nation": "england",
+      "postcodes": ["B", "CV", "WV", "WS", "DY", "ST", "TF", "WR"],
+      "image": "/photos/region-west-midlands.jpg",
+      "facts": [
+        "Coventry is home to the UK Battery Industrialisation Centre, which helps develop batteries for electric vehicles.",
+        "The West Midlands is a centre for car making, from classic engineering to electric vehicles.",
+        "James Watt and Matthew Boulton built steam engines in Birmingham in the 1700s."
+      ],
+      "topics": {
+        "Electricity": "Uses electric vehicle batteries developed in the West Midlands as the example.",
+        "Circuits": "Uses electric vehicle batteries developed in the West Midlands as the example.",
+        "Energy transfers": "Compares Birmingham’s steam engines with today’s electric cars.",
+        "Robotics": "Links robots to car factories across the West Midlands."
+      },
+      "default": "Swaps in examples from the West Midlands’ car-making and engineering industries.",
+      "careers": ["Battery engineer", "Automotive engineer", "Robotics technician"],
+      "demoLine": "Engineers in Coventry help develop the batteries that store wind-generated electricity for electric cars."
+    },
+    {
+      "id": "cornwall",
+      "name": "Cornwall",
+      "place": "Cornwall",
+      "nation": "england",
+      "postcodes": ["TR", "PL"],
+      "image": "/photos/region-cornwall.jpg",
+      "facts": [
+        "United Downs, near Redruth, is the UK’s first deep geothermal power plant.",
+        "Cornwall is exploring lithium extraction for electric car batteries.",
+        "Cornwall’s mining landscape is a UNESCO World Heritage Site."
+      ],
+      "topics": {
+        "Rocks and fossils": "Uses Cornish granite and the county’s tin and copper mining heritage.",
+        "Electricity": "Links electricity to geothermal power at United Downs, near Redruth.",
+        "Energy transfers": "Uses geothermal heat from deep below Cornwall as the energy source.",
+        "Living things and habitats": "Uses Cornish rockpools as the habitat study."
+      },
+      "default": "Swaps in examples from Cornwall’s coast, geology and new energy industries.",
+      "careers": ["Geologist", "Geothermal engineer", "Marine biologist"],
+      "demoLine": "Cornwall’s windy coast and deep hot granite make it a test-bed for new energy, from wind turbines to geothermal power at United Downs."
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "place": "London",
+      "nation": "england",
+      "postcodes": ["E", "EC", "N", "NW", "SE", "SW", "W", "WC", "BR", "CR", "DA", "EN", "HA", "IG", "KT", "RM", "SM", "TW", "UB"],
+      "image": "/photos/region-london.jpg",
+      "facts": [
+        "Engineers spent over a decade building the Elizabeth line tunnels under London.",
+        "London is a world centre for medical research, including the Francis Crick Institute.",
+        "The Thames Barrier protects the city from tidal flooding."
+      ],
+      "topics": {
+        "Materials": "Uses the Elizabeth line’s tunnels as the materials and engineering example.",
+        "Human body": "Links to medical research at London’s science institutes.",
+        "Food and nutrition": "Links to nutrition research at London’s science institutes.",
+        "Waves": "Uses the Thames Barrier to explore tides and waves."
+      },
+      "default": "Swaps in examples from London’s engineering, transport and medical research.",
+      "careers": ["Tunnelling engineer", "Biomedical scientist", "Flood risk engineer"],
+      "demoLine": "The London Array, in the Thames Estuary, helps power homes across the capital."
+    }
+  ]
+}

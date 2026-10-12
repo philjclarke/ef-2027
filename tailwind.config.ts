@@ -16,6 +16,21 @@ export default {
         line: { DEFAULT: '#E4E3F2', soft: '#E9E9F1', strong: '#DCDCEA' },
         yellow: { DEFAULT: '#FFCF2C' },
         age: { '4-7': '#C3B3EE', '7-11': '#5FBE98', '11-14': '#FFCF2C', '14-16': '#80B3DD' },
+        // Homepage options B and C: the brand palette dialled up a notch, plus a warm coral accent.
+        // Navy text passes 4.5:1 on all of these.
+        pop: {
+          blue: '#6AA6EA',
+          mint: '#46C596',
+          sun: '#FFC629',
+          lilac: '#B39BF6',
+          coral: '#FF8A6B',
+          'blue-soft': '#E1EEFC',
+          'mint-soft': '#DDF5EA',
+          'sun-soft': '#FFF3CC',
+          'lilac-soft': '#EEE8FE',
+          'coral-soft': '#FFE6DE',
+          cream: '#FFF9EF',
+        },
       },
       fontFamily: {
         heading: ['Poppins', '"Poppins Fallback"', 'system-ui', 'sans-serif'],
