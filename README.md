@@ -19,7 +19,7 @@ npm run preview    # serve the static build
 Useful URLs:
 
 - `/`: homepage
-- `/?as=sam`: homepage previewed as a signed-in teacher (`?as=guest` turns it off). There's also a toggle in the footer. The choice is kept in `localStorage`.
+- `/?as=sam`: homepage previewed as a signed-in teacher (`?as=guest` turns it off). There's also a toggle in the yellow Prototype bar at the top of every page. The choice is kept in `localStorage`.
 - `/search?q=electricity`: results. All state is in the URL: `q`, `age`, `format`, `tab`, `kind`, `sort`.
 - `/search?q=magnets`, `/search?q=electrcity`, `/search?q=zzzz`: the "no exact match" states.
 

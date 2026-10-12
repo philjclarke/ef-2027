@@ -6,6 +6,7 @@
     >
       Skip to content
     </a>
+    <PreviewBar />
     <SiteHeader />
     <main id="main" tabindex="-1" class="focus:outline-none">
       <slot />
